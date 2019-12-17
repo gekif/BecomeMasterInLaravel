@@ -11,10 +11,4 @@
 |
 */
 
-Route::get('admin/posts/example', ['as' => 'admin.home', function () {
-
-    $url = route('admin.home');
-
-    return "This url is " . $url;
-
-}]);
+Route::get('/post', 'PostsController@index');
