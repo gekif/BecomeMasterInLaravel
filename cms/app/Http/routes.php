@@ -155,7 +155,7 @@ Route::get('/basicupdate', function () {
 
 
 // Retrieve Deleted Trash Record
-Route::get('/readsoftdelete', function () {
+/*Route::get('/readsoftdelete', function () {
 
     // Retrieve Nothing
 //    $post = Post::find(1);
@@ -170,5 +170,13 @@ Route::get('/readsoftdelete', function () {
     $post = Post::onlyTrashed()->where('is_admin', 0)->get();
 
     return $post;
-});
+});*/
 
+
+
+// Restoring delete trash record
+Route::get('/restore', function () {
+
+    Post::withTrashed()->where('is_admin', 0)->restore();
+
+});
