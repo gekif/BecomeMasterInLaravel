@@ -44,7 +44,7 @@ Route::get('/find', function () {
 
 
 // More ways to retrieve data
-Route::get('/findmore', function () {
+/*Route::get('/findmore', function () {
 
 //    $posts = Post::findOrFail(1);
 //
@@ -53,5 +53,38 @@ Route::get('/findmore', function () {
     $posts = Post::where('users_count', '<', 50)->firstOrFail();
 
     return $posts;
+
+});*/
+
+
+
+// Basic Insert
+Route::get('/basicinsert', function () {
+
+    // Create instantion of post
+    $post = new Post();
+
+    // Access every post element, give the value
+    $post->title = 'Vue';
+    $post->body = 'new Vue JS';
+
+    // Save the result
+    $post->save();
+
+});
+
+
+// Basic Update
+Route::get('/basicupdate', function () {
+
+    // Create instantion of post
+    $post = Post::find(2);
+
+    // Access every post element, give the value
+    $post->title = 'Vue 2';
+    $post->body = 'new Vue JS 2';
+
+    // Save the result
+    $post->save();
 
 });
