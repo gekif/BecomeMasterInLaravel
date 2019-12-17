@@ -130,7 +130,7 @@ Route::get('/basicupdate', function () {
 
 
 // Delete method number 2
-Route::get('/delete', function () {
+/*Route::get('/delete', function () {
 
     // Delete single data
     Post::destroy(2);
@@ -141,4 +141,14 @@ Route::get('/delete', function () {
     // Delete data using condition
     Post::where('is_admin', 0)->delete();
 
+});*/
+
+
+
+// Soft Delete
+Route::get('/softdelete', function () {
+
+    Post::find(1)->delete();
+
 });
+
