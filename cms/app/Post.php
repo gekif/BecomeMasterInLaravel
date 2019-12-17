@@ -11,4 +11,7 @@ class Post extends Model
 //    protected $primaryKey = 'id';
 
 
+    // To Get This Mass Assignment Work
+    protected $fillable = ['title', 'body'];
+
 }

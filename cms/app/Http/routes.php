@@ -59,7 +59,7 @@ Route::get('/find', function () {
 
 
 // Basic Insert
-Route::get('/basicinsert', function () {
+/*Route::get('/basicinsert', function () {
 
     // Create instantion of post
     $post = new Post();
@@ -86,5 +86,19 @@ Route::get('/basicupdate', function () {
 
     // Save the result
     $post->save();
+
+});*/
+
+
+
+// Creating data and configuring mass assignment
+Route::get('/create', function () {
+
+    Post::create([
+        'title' => 'The create method',
+        'body' => 'Wow im learning laravel'
+    ]);
+
+
 
 });
