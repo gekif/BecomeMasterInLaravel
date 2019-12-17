@@ -11,7 +11,10 @@
 |
 */
 
-Route::resource('posts', 'PostsController');
+//Route::resource('posts', 'PostsController');
 
 
 Route::get('/contact', 'PostsController@contact');
+
+
+Route::get('post/{id}/{name}/{password}', 'PostsController@showPost');
