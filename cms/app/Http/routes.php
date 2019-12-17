@@ -32,10 +32,25 @@ Route::get('/find', function () {
 
 
 // Reading Data Using Constraint
-Route::get('/findwhere', function () {
+/*Route::get('/findwhere', function () {
 
     // Get the data from Select * from posts where id = 1 order by id desc limit 1
     $posts = Post::where('id', 1)->orderBy('id', 'desc')->take(1)->get();
+
+    return $posts;
+
+});*/
+
+
+
+// More ways to retrieve data
+Route::get('/findmore', function () {
+
+//    $posts = Post::findOrFail(1);
+//
+//    return $posts;
+
+    $posts = Post::where('users_count', '<', 50)->firstOrFail();
 
     return $posts;
 
