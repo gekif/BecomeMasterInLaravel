@@ -6,11 +6,10 @@
 |--------------------------------------------------------------------------
 */
 
-
-// Reading Data
 use App\Post;
 
-Route::get('/read', function () {
+// Reading Data
+/*Route::get('/read', function () {
 
     $posts = Post::all();
 
@@ -28,5 +27,16 @@ Route::get('/find', function () {
     return $posts->title;
 
 
-});
+});*/
 
+
+
+// Reading Data Using Constraint
+Route::get('/findwhere', function () {
+
+    // Get the data from Select * from posts where id = 1 order by id desc limit 1
+    $posts = Post::where('id', 1)->orderBy('id', 'desc')->take(1)->get();
+
+    return $posts;
+
+});
