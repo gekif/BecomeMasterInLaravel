@@ -11,20 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('admin/posts/example', ['as' => 'admin.home', function () {
 
-Route::get('/about', function () {
-    return "Hi About Page";
-});
+    $url = route('admin.home');
 
-Route::get('/contact', function () {
-    return "Hi I am Contact";
-});
+    return "This url is " . $url;
 
-
-// Passing Parameter, where function hold variable
-Route::get('/post/{id}/{name}', function ($id, $name) {
-    return "Hello " . $name . ". This is post number " . $id;
-});
+}]);
