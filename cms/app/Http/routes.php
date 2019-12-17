@@ -12,5 +12,13 @@
 */
 
 Route::get('/', function () {
+
+//Route::get('/example', function () {
+
+//Route::get('/admin/posts', function () {
+
     return view('welcome');
+
+//    return "Hello World";
+
 });
