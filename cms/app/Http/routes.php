@@ -20,11 +20,40 @@
 //Route::get('post/{id}/{name}/{password}', 'PostsController@showPost');
 
 
-Route::get('/insert', function () {
+/*
+|--------------------------------------------------------------------------
+| Database RAW SQL Queries
+|--------------------------------------------------------------------------
+|
+*/
+
+
+// Insert
+/*Route::get('/insert', function () {
 
     DB::insert('insert into posts(title, body) values(?, ?)', [
         'PHP With Laravel',
         'Larave is the best thing that has happened to PHP'
     ]);
 
+});*/
+
+
+// Read
+Route::get('/read', function () {
+
+    $results = DB::select('select * from posts where id = ?', [1]);
+
+//    foreach ($results as $post) {
+//        return $post->title;
+//    }
+
+    // Return JSON
+    return $results;
+
+    // debugging
+//     dd($results);
+//     var_dump($results);
+
 });
+
