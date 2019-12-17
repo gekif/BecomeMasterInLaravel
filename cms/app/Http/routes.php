@@ -59,17 +59,26 @@
 
 
 // Update
-Route::get('/update', function () {
+/*Route::get('/update', function () {
 
     $updated = DB::update('update posts set title = ? where id = ?', [
                     'PHP With Laravel Updated',
                     2
                 ]);
 
-    /**
-     * Return 1 -> true
-     * Return 0 -> false
-     */
+
+    // Return 1 -> true
+    // Return 0 -> false
     return $updated;
+
+});*/
+
+
+// Delete
+Route::get('/delete', function () {
+
+    $deleted = DB::delete('delete from posts where id = ?', [1]);
+
+    return $deleted;
 
 });
