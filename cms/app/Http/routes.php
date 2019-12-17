@@ -106,11 +106,39 @@ Route::get('/basicupdate', function () {
 
 
 // Update with Eloquent
-Route::get('/update', function () {
+/*Route::get('/update', function () {
 
     Post::where('id', 2)->where('is_admin', 0)->update([
         'title' => 'New PHP Title',
         'body' => 'I Love my wife'
     ]);
+
+});*/
+
+
+
+// Delete data using Elquent
+
+// Basic Delete
+/*Route::get('/delete', function () {
+
+    $post = Post::find(3);
+
+    $post->delete();
+
+});*/
+
+
+// Delete method number 2
+Route::get('/delete', function () {
+
+    // Delete single data
+    Post::destroy(2);
+
+    // Delete Multiple using Array
+    Post::destroy([4, 5]);
+
+    // Delete data using condition
+    Post::where('is_admin', 0)->delete();
 
 });
