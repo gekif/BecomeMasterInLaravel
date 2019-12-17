@@ -40,7 +40,7 @@
 
 
 // Read
-Route::get('/read', function () {
+/*Route::get('/read', function () {
 
     $results = DB::select('select * from posts where id = ?', [1]);
 
@@ -55,5 +55,21 @@ Route::get('/read', function () {
 //     dd($results);
 //     var_dump($results);
 
-});
+});*/
 
+
+// Update
+Route::get('/update', function () {
+
+    $updated = DB::update('update posts set title = ? where id = ?', [
+                    'PHP With Laravel Updated',
+                    2
+                ]);
+
+    /**
+     * Return 1 -> true
+     * Return 0 -> false
+     */
+    return $updated;
+
+});
