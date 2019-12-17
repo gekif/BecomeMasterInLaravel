@@ -92,7 +92,7 @@ Route::get('/basicupdate', function () {
 
 
 // Creating data and configuring mass assignment
-Route::get('/create', function () {
+/*Route::get('/create', function () {
 
     Post::create([
         'title' => 'The create method',
@@ -100,5 +100,17 @@ Route::get('/create', function () {
     ]);
 
 
+
+});*/
+
+
+
+// Update with Eloquent
+Route::get('/update', function () {
+
+    Post::where('id', 2)->where('is_admin', 0)->update([
+        'title' => 'New PHP Title',
+        'body' => 'I Love my wife'
+    ]);
 
 });
