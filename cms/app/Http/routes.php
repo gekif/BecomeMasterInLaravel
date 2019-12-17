@@ -146,9 +146,29 @@ Route::get('/basicupdate', function () {
 
 
 // Soft Delete
-Route::get('/softdelete', function () {
+/*Route::get('/softdelete', function () {
 
     Post::find(1)->delete();
 
+});*/
+
+
+
+// Retrieve Deleted Trash Record
+Route::get('/readsoftdelete', function () {
+
+    // Retrieve Nothing
+//    $post = Post::find(1);
+
+//    return $post;
+
+
+    // Get the data in soft deletes where id = 1
+//    $post = Post::withTrashed()->where('id', 1)->get();
+
+    // Same method with this
+    $post = Post::onlyTrashed()->where('is_admin', 0)->get();
+
+    return $post;
 });
 
