@@ -12,13 +12,19 @@
 */
 
 Route::get('/', function () {
-
-//Route::get('/example', function () {
-
-//Route::get('/admin/posts', function () {
-
     return view('welcome');
+});
 
-//    return "Hello World";
+Route::get('/about', function () {
+    return "Hi About Page";
+});
 
+Route::get('/contact', function () {
+    return "Hi I am Contact";
+});
+
+
+// Passing Parameter, where function hold variable
+Route::get('/post/{id}/{name}', function ($id, $name) {
+    return "Hello " . $name . ". This is post number " . $id;
 });
