@@ -57,7 +57,6 @@ Route::get('/user/{id}/role', function ($id) {
 });
 
 
-
 // Accessing the intermediate table/pivot
 Route::get('/user/pivot', function () {
 
@@ -69,4 +68,10 @@ Route::get('/user/pivot', function () {
 
 });
 
+
+
+// Has Many Through Relationship
+Route::get('/user/country', function () {
+
+});
 
