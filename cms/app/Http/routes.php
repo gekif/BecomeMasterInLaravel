@@ -70,7 +70,6 @@ Route::get('/user/pivot', function () {
 });
 
 
-
 // Has Many Through Relationship
 Route::get('/user/country', function () {
 
@@ -81,4 +80,29 @@ Route::get('/user/country', function () {
     }
 
 });
+
+
+// Polymorphic Relation
+Route::get('/user/{id{/photos', function ($id) {
+
+    $user = User::find($id);
+
+    foreach ($user->photos as $photo) {
+        return $photo;
+    }
+
+});
+
+
+Route::get('/post/{id}/photos', function ($id) {
+
+    $post = Post::find($id);
+
+    foreach ($post->photos as $photo) {
+        echo $photo->path . "<br>";
+    }
+
+});
+
+
 

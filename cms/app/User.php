@@ -46,4 +46,9 @@ class User extends Authenticatable
             'role_id'
         );*/
     }
+
+    public function photos()
+    {
+        return $this->morphMany('App\Photo', 'imageable');
+    }
 }
