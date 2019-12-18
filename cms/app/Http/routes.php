@@ -39,3 +39,21 @@ Route::get('/posts', function () {
 
 });
 
+
+// Many to Many Relationship
+Route::get('/user/{id}/role', function ($id) {
+
+    $user = User::find($id);
+
+    foreach ($user->roles as $role) {
+        return $role->name;
+    }
+
+    //    $user = User::find($id)->roles()->orderBy('id', 'desc')->get();
+
+//    return $user;
+
+
+});
+
+
