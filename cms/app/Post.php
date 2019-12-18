@@ -13,7 +13,7 @@ class Post extends Model
     protected $dates = ['deleted_at'];
 
     // To Get This Mass Assignment Work
-    protected $fillable = ['title', 'body'];
+    protected $fillable = ['title', 'content'];
 
     public function user()
     {
