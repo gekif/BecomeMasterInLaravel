@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d22c38a-9d27-4ec4-9874-7184b6b3b289" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="laravel_cms@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="laravel_cms@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="laravel_cms" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="laravel_cms@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="laravel_cms" type="e3449647:DbNodeDescriptor" />
+        <item name="public" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="laravel_cms@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="laravel_cms" type="e3449647:DbNodeDescriptor" />
+        <item name="public" type="e3449647:DbNodeDescriptor" />
+        <item name="" type="fce03ad6:DatabaseStructure$GroupNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="posts" pinned="false" current-in-tab="false">
+        <entry file="das://table:/775368a0/79d2996a-c2bc-4980-9fdb-b072cc089c5b/laravel_cms.public.posts">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="roles" pinned="false" current-in-tab="false">
+        <entry file="das://table:/775368a0/79d2996a-c2bc-4980-9fdb-b072cc089c5b/laravel_cms.public.roles">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="role_user" pinned="false" current-in-tab="true">
+        <entry file="das://table:/775368a0/79d2996a-c2bc-4980-9fdb-b072cc089c5b/laravel_cms.public.role_user">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Post.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+              <folding>
+                <element signature="e#23#62#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2019_12_17_044349_create_posts_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_12_17_044349_create_posts_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/post.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/contact.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_12_17_044827_add_is_admin_column_to_posts_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_12_17_054931_add_deleted_at_column_to_posts_tables.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_12_17_103519_create_roles_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_12_17_103710_create_users_roles_table.php" />
+        <option value="$PROJECT_DIR$/app/Role.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_12_18_023212_create_countries_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_12_18_023351_add_country_id_column_to_users.php" />
+        <option value="$PROJECT_DIR$/app/Country.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_12_18_024942_create_photos_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_12_17_044349_create_posts_table.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/app/Photo.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_12_18_031553_create_videos_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_12_18_031621_create_tags_table.php" />
+        <option value="$PROJECT_DIR$/app/Tag.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_12_18_031644_create_taggables_table.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/Post.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-4" />
+    <option name="width" value="704" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="migrations" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="SearchEverywhereHistoryKey" value="post&#9;null&#9;null&#10;Post&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Post.php&#10;Tag&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Tag.php&#10;routes&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Http/routes.php&#10;tagga&#9;null&#9;null&#10;Tagga&#9;null&#9;null&#10;tags&#9;null&#9;null&#10;video&#9;null&#9;null&#10;Video&#9;null&#9;null&#10;Photo&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Photo.php&#10;route&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Http/routes.php&#10;User&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/User.php&#10;photo&#9;null&#9;null&#10;posts&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/database/migrations/2019_12_17_044349_create_posts_table.php&#10;phot&#9;null&#9;null&#10;Countr&#9;null&#9;null&#10;countr&#9;null&#9;null&#10;Role&#9;null&#9;null&#10;user&#9;null&#9;null&#10;create&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/database/migrations/2019_12_17_044349_create_posts_table.php&#10;add_de&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/database/migrations/2019_12_17_054931_add_deleted_at_column_to_posts_tables.php&#10;contac&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/contact.blade.php&#10;Posts&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Http/Controllers/PostsController.php" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d22c38a-9d27-4ec4-9874-7184b6b3b289" name="Default" comment="" />
+      <created>1576549704041</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576549704041</updated>
+      <workItem from="1576549705559" duration="2156000" />
+      <workItem from="1576556821699" duration="5857000" />
+      <workItem from="1576577695758" duration="2056000" />
+      <workItem from="1576634644038" duration="5508000" />
+      <workItem from="1576640421709" duration="1868000" />
+    </task>
+    <task id="LOCAL-00001" summary="4. Laravel Fundamentals - Routes: 3. Routes part 1">
+      <created>1576549882740</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576549882740</updated>
+    </task>
+    <task id="LOCAL-00002" summary="4. Laravel Fundamentals - 4. Routes part 2">
+      <created>1576550156015</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576550156015</updated>
+    </task>
+    <task id="LOCAL-00003" summary="4. Laravel Fundamentals: 5. Naming Routes">
+      <created>1576550313479</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576550313479</updated>
+    </task>
+    <task id="LOCAL-00004" summary="5. Laravel Fundamentals - Controllers: 2. Creating Controllers">
+      <created>1576550501333</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576550501333</updated>
+    </task>
+    <task id="LOCAL-00005" summary="5. Laravel Fundamentals - Controllers: 3. Routing Controllers">
+      <created>1576550626492</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576550626492</updated>
+    </task>
+    <task id="LOCAL-00006" summary="5. Laravel Fundamentals - Controllers: 4. Passing data">
+      <created>1576550716765</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576550716765</updated>
+    </task>
+    <task id="LOCAL-00007" summary="5. Laravel Fundamentals - Controllers: 5. Resources and Controllers">
+      <created>1576551001588</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576551001588</updated>
+    </task>
+    <task id="LOCAL-00008" summary="6. Laravel Fundamentals - Views: 2. Creating views and custom method">
+      <created>1576551415749</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576551415749</updated>
+    </task>
+    <task id="LOCAL-00009" summary="6. Laravel Fundamentals - Views: 3. Passing data to views">
+      <created>1576551852851</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1576551852851</updated>
+    </task>
+    <task id="LOCAL-00010" summary="7. Laravel Fundamentals - Laravel Blade templating engine: 2. Master layout setup">
+      <created>1576557204732</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1576557204732</updated>
+    </task>
+    <task id="LOCAL-00011" summary="7. Laravel Fundamentals - Laravel Blade templating engine: 3. Some more blade features">
+      <created>1576557540770</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1576557540770</updated>
+    </task>
+    <task id="LOCAL-00012" summary="8. Laravel Fundamentals - Database - Laravel Migrations: 3. Migrating">
+      <created>1576557751340</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1576557751340</updated>
+    </task>
+    <task id="LOCAL-00013" summary="8. Laravel Fundamentals - Database - Laravel Migrations: 4. Creating migration and dropping them">
+      <created>1576558073411</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1576558073411</updated>
+    </task>
+    <task id="LOCAL-00014" summary="8. Laravel Fundamentals - Database - Laravel Migrations: 5. Adding columns to existing tables using migrations">
+      <created>1576558430624</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1576558430624</updated>
+    </task>
+    <task id="LOCAL-00015" summary="9. Laravel Fundamentals - Raw SQL Queries: 2. Inserting data">
+      <created>1576558896857</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1576558896857</updated>
+    </task>
+    <task id="LOCAL-00016" summary="9. Laravel Fundamentals - Raw SQL Queries: 3. Reading Data">
+      <created>1576559241903</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1576559241903</updated>
+    </task>
+    <task id="LOCAL-00017" summary="9. Laravel Fundamentals - Raw SQL Queries: 4. Updating Data">
+      <created>1576559534513</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1576559534513</updated>
+    </task>
+    <task id="LOCAL-00018" summary="9. Laravel Fundamentals - Raw SQL Queries: 5. Deleting Data">
+      <created>1576559676077</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1576559676077</updated>
+    </task>
+    <task id="LOCAL-00019" summary="10. Laravel Fundamentals - Database - Eloquent ORM: 2. Reading Data">
+      <created>1576560292629</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1576560292629</updated>
+    </task>
+    <task id="LOCAL-00020" summary="10. Laravel Fundamentals - Database - Eloquent ORM: 3. Reading  Finding with Constraints">
+      <created>1576560557609</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1576560557609</updated>
+    </task>
+    <task id="LOCAL-00021" summary="10. Laravel Fundamentals - Database - Eloquent ORM: 4. More ways to retrieve data">
+      <created>1576560743793</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1576560743793</updated>
+    </task>
+    <task id="LOCAL-00022" summary="10. Laravel Fundamentals - Database - Eloquent ORM: 5. Inserting  Saving Data">
+      <created>1576561002150</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1576561002150</updated>
+    </task>
+    <task id="LOCAL-00023" summary="10. Laravel Fundamentals - Database - Eloquent ORM: 6. Creating data and configuring mass assignment">
+      <created>1576561205759</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1576561205759</updated>
+    </task>
+    <task id="LOCAL-00024" summary="10. Laravel Fundamentals - Database - Eloquent ORM: 7. Updating with Eloquent">
+      <created>1576561370341</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1576561370341</updated>
+    </task>
+    <task id="LOCAL-00025" summary="10. Laravel Fundamentals - Database - Eloquent ORM: 8. Deleting Data">
+      <created>1576561611611</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1576561611612</updated>
+    </task>
+    <task id="LOCAL-00026" summary="10. Laravel Fundamentals - Database - Eloquent ORM: 9. Soft Deleting  Trashing">
+      <created>1576561956114</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1576561956114</updated>
+    </task>
+    <task id="LOCAL-00027" summary="10. Laravel Fundamentals - Database - Eloquent ORM: 10. Retrieving deleted  trashed records">
+      <created>1576562265979</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1576562265979</updated>
+    </task>
+    <task id="LOCAL-00028" summary="10. Laravel Fundamentals - Database - Eloquent ORM: 11. Restoring deleted  trashed records">
+      <created>1576562398956</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1576562398956</updated>
+    </task>
+    <task id="LOCAL-00029" summary="10. Laravel Fundamentals - Database - Eloquent ORM: 12. Deleting a record permanently">
+      <created>1576562665975</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1576562665975</updated>
+    </task>
+    <task id="LOCAL-00030" summary="11. Laravel Fundamentals - Database - Eloquent Relationships: 2. One to One relationship">
+      <created>1576578320100</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1576578320100</updated>
+    </task>
+    <task id="LOCAL-00031" summary="11. Laravel Fundamentals - Database - Eloquent Relationships: 3. The inverse relation">
+      <created>1576578515595</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1576578515595</updated>
+    </task>
+    <task id="LOCAL-00032" summary="11. Laravel Fundamentals - Database - Eloquent Relationships: 4. One to many relationship">
+      <created>1576578875693</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1576578875693</updated>
+    </task>
+    <task id="LOCAL-00033" summary="11. Laravel Fundamentals - Database - Eloquent Relationships: 6. Many to many relations part 1">
+      <created>1576579132082</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1576579132082</updated>
+    </task>
+    <task id="LOCAL-00034" summary="11. Laravel Fundamentals - Database - Eloquent Relationships: 7. Many to many relations part 2">
+      <created>1576635498515</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1576635498516</updated>
+    </task>
+    <task id="LOCAL-00035" summary="11. Laravel Fundamentals - Database - Eloquent Relationships: 8. Querying intermediate table">
+      <created>1576636127138</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1576636127138</updated>
+    </task>
+    <task id="LOCAL-00036" summary="11. Laravel Fundamentals - Database - Eloquent Relationships: 9. Has many through relation part 1">
+      <created>1576636695459</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1576636695459</updated>
+    </task>
+    <task id="LOCAL-00037" summary="11. Laravel Fundamentals - Database - Eloquent Relationships: 10. Has many through relation part 2">
+      <created>1576636976000</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1576636976000</updated>
+    </task>
+    <task id="LOCAL-00038" summary="11. Laravel Fundamentals - Database - Eloquent Relationships: 11. Polymorphic relation part 1">
+      <created>1576637482410</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1576637482411</updated>
+    </task>
+    <task id="LOCAL-00039" summary="11. Laravel Fundamentals - Database - Eloquent Relationships: 12. Polymorphic relation part 2">
+      <created>1576638668324</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1576638668324</updated>
+    </task>
+    <task id="LOCAL-00040" summary="11. Laravel Fundamentals - Database - Eloquent Relationships: 13. Polymorphic relation the inverse">
+      <created>1576638899592</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1576638899592</updated>
+    </task>
+    <task id="LOCAL-00041" summary="11. Laravel Fundamentals - Database - Eloquent Relationships: 14. Polymorphic relation many to many part 1">
+      <created>1576639113725</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1576639113725</updated>
+    </task>
+    <task id="LOCAL-00042" summary="11. Laravel Fundamentals - Database - Eloquent Relationships: 15. Polymorphic relation many to many part 2">
+      <created>1576639267543</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1576639267543</updated>
+    </task>
+    <task id="LOCAL-00043" summary="11. Laravel Fundamentals - Database - Eloquent Relationships: 16. Polymorphic relation many to many - retrieving">
+      <created>1576639824613</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1576639824613</updated>
+    </task>
+    <task id="LOCAL-00044" summary="11. Laravel Fundamentals - Database - Eloquent Relationships: 17. Polymorphic relation many to many - retrieving owner">
+      <created>1576640147386</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1576640147386</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Fix Post Model So That can used on tinker">
+      <created>1576641240892</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1576641240892</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17445000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="0" width="704" height="728" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.71428573" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32608697" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293919" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="10. Laravel Fundamentals - Database - Eloquent ORM: 4. More ways to retrieve data" />
+    <MESSAGE value="10. Laravel Fundamentals - Database - Eloquent ORM: 5. Inserting  Saving Data" />
+    <MESSAGE value="10. Laravel Fundamentals - Database - Eloquent ORM: 6. Creating data and configuring mass assignment" />
+    <MESSAGE value="10. Laravel Fundamentals - Database - Eloquent ORM: 7. Updating with Eloquent" />
+    <MESSAGE value="10. Laravel Fundamentals - Database - Eloquent ORM: 8. Deleting Data" />
+    <MESSAGE value="10. Laravel Fundamentals - Database - Eloquent ORM: 9. Soft Deleting  Trashing" />
+    <MESSAGE value="10. Laravel Fundamentals - Database - Eloquent ORM: 10. Retrieving deleted  trashed records" />
+    <MESSAGE value="10. Laravel Fundamentals - Database - Eloquent ORM: 11. Restoring deleted  trashed records" />
+    <MESSAGE value="10. Laravel Fundamentals - Database - Eloquent ORM: 12. Deleting a record permanently" />
+    <MESSAGE value="11. Laravel Fundamentals - Database - Eloquent Relationships: 2. One to One relationship" />
+    <MESSAGE value="11. Laravel Fundamentals - Database - Eloquent Relationships: 3. The inverse relation" />
+    <MESSAGE value="11. Laravel Fundamentals - Database - Eloquent Relationships: 4. One to many relationship" />
+    <MESSAGE value="11. Laravel Fundamentals - Database - Eloquent Relationships: 6. Many to many relations part 1" />
+    <MESSAGE value="11. Laravel Fundamentals - Database - Eloquent Relationships: 7. Many to many relations part 2" />
+    <MESSAGE value="11. Laravel Fundamentals - Database - Eloquent Relationships: 8. Querying intermediate table" />
+    <MESSAGE value="11. Laravel Fundamentals - Database - Eloquent Relationships: 9. Has many through relation part 1" />
+    <MESSAGE value="11. Laravel Fundamentals - Database - Eloquent Relationships: 10. Has many through relation part 2" />
+    <MESSAGE value="11. Laravel Fundamentals - Database - Eloquent Relationships: 11. Polymorphic relation part 1" />
+    <MESSAGE value="11. Laravel Fundamentals - Database - Eloquent Relationships: 12. Polymorphic relation part 2" />
+    <MESSAGE value="11. Laravel Fundamentals - Database - Eloquent Relationships: 13. Polymorphic relation the inverse" />
+    <MESSAGE value="11. Laravel Fundamentals - Database - Eloquent Relationships: 14. Polymorphic relation many to many part 1" />
+    <MESSAGE value="11. Laravel Fundamentals - Database - Eloquent Relationships: 15. Polymorphic relation many to many part 2" />
+    <MESSAGE value="11. Laravel Fundamentals - Database - Eloquent Relationships: 16. Polymorphic relation many to many - retrieving" />
+    <MESSAGE value="11. Laravel Fundamentals - Database - Eloquent Relationships: 17. Polymorphic relation many to many - retrieving owner" />
+    <MESSAGE value="Fix Post Model So That can used on tinker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Post Model So That can used on tinker" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#23#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3230">
+          <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/775368a0/79d2996a-c2bc-4980-9fdb-b072cc089c5b/laravel_cms.public.posts">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/post.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/post.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/contact.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/79d2996a-c2bc-4980-9fdb-b072cc089c5b/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_12_17_044827_add_is_admin_column_to_posts_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/775368a0/79d2996a-c2bc-4980-9fdb-b072cc089c5b/laravel_cms.public.posts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_12_17_054931_add_deleted_at_column_to_posts_tables.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_12_17_103710_create_users_roles_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_12_17_103519_create_roles_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/775368a0/79d2996a-c2bc-4980-9fdb-b072cc089c5b/laravel_cms.public.users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_12_18_023351_add_country_id_column_to_users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_12_18_023212_create_countries_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_12_18_024942_create_photos_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Role.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Country.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="59" lean-forward="false" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/775368a0/79d2996a-c2bc-4980-9fdb-b072cc089c5b/laravel_cms.public.users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/775368a0/79d2996a-c2bc-4980-9fdb-b072cc089c5b/laravel_cms.public.users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/775368a0/79d2996a-c2bc-4980-9fdb-b072cc089c5b/laravel_cms.public.users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="52" column="5" lean-forward="false" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/775368a0/79d2996a-c2bc-4980-9fdb-b072cc089c5b/laravel_cms.public.users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/775368a0/79d2996a-c2bc-4980-9fdb-b072cc089c5b/laravel_cms.public.users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_12_18_031553_create_videos_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_12_18_031621_create_tags_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/775368a0/79d2996a-c2bc-4980-9fdb-b072cc089c5b/laravel_cms.public.photos">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_12_18_031644_create_taggables_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/775368a0/79d2996a-c2bc-4980-9fdb-b072cc089c5b/laravel_cms.public.videos">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/775368a0/79d2996a-c2bc-4980-9fdb-b072cc089c5b/laravel_cms.public.taggables">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="ctid" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/775368a0/79d2996a-c2bc-4980-9fdb-b072cc089c5b/laravel_cms.public.tags">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Tag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-578">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_12_17_044349_create_posts_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="e#23#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/775368a0/79d2996a-c2bc-4980-9fdb-b072cc089c5b/laravel_cms.public.countries">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/775368a0/79d2996a-c2bc-4980-9fdb-b072cc089c5b/laravel_cms.public.users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/775368a0/79d2996a-c2bc-4980-9fdb-b072cc089c5b/laravel_cms.public.posts">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/775368a0/79d2996a-c2bc-4980-9fdb-b072cc089c5b/laravel_cms.public.roles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/775368a0/79d2996a-c2bc-4980-9fdb-b072cc089c5b/laravel_cms.public.role_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
