@@ -9,6 +9,7 @@
 use App\Country;
 use App\Photo;
 use App\Post;
+use App\Tag;
 use App\User;
 
 
@@ -106,7 +107,6 @@ Route::get('/post/{id}/photos', function ($id) {
 });
 
 
-
 // Polymorphic Relation Inverse
 // The purpose is to know the owner of the photo
 Route::get('photo/{id}/post', function ($id) {
@@ -118,7 +118,6 @@ Route::get('photo/{id}/post', function ($id) {
 });
 
 
-
 // Polymorphic many to many
 Route::get('/post/tag', function () {
 
@@ -127,5 +126,21 @@ Route::get('/post/tag', function () {
     foreach ($post->tags as $tag) {
         echo $tag->name;
     }
+
 });
+
+
+// Polymorphic retrieving owner of the post
+Route::get('/tag/post/{id}', function ($id) {
+
+    $tag = Tag::find($id);
+
+//    return $tag;
+
+    foreach ($tag->posts as $post) {
+        echo $post->title . "<br>";
+    }
+
+});
+
 
