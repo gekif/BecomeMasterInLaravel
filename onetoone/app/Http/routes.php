@@ -18,6 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Route::get('/insert', function () {
 
     $user = User::findOrFail(1);
@@ -28,5 +29,15 @@ Route::get('/insert', function () {
 
     $user->address()->save($address);
 
+});
+
+
+Route::get('/update', function () {
+
+    $address = Address::whereUserId(1)->first();
+
+    $address->name = 'Jalan Behape 1 Blok CC No 3/4';
+
+    $address->save();
 
 });
