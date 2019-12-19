@@ -23,9 +23,27 @@ Route:: get('/create', function () {
 
     $user = User::findOrFail(1);
 
-    $user->posts()->save(new Post([
+/*    $user->posts()->save(new Post([
         'title' => 'I Will Remember',
         'body' => 'I Love My Wife'
+    ]));*/
+
+    $user->posts()->save(new Post([
+        'title' => 'I Will Remember 2',
+        'body' => 'I Love My Wife 2'
     ]));
+
+});
+
+
+Route::get('/read', function () {
+
+    $user = User::findOrFail(1);
+
+//    return $user->posts;
+
+    foreach ($user->posts as $post) {
+        echo $post->title . "<br>";
+    }
 
 });
