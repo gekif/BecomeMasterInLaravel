@@ -11,6 +11,21 @@
 |
 */
 
+use App\Post;
+use App\User;
+
 Route::get('/', function () {
     return view('welcome');
+});
+
+
+Route:: get('/create', function () {
+
+    $user = User::findOrFail(1);
+
+    $user->posts()->save(new Post([
+        'title' => 'I Will Remember',
+        'body' => 'I Love My Wife'
+    ]));
+
 });
