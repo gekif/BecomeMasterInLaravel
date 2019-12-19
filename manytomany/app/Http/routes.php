@@ -30,3 +30,14 @@ Route::get('/create', function () {
     $user->roles()->save($role);
 
 });
+
+
+Route::get('/read', function () {
+
+    $user = User::findOrFail(1);
+
+    foreach ($user->roles as $role) {
+        return $role->name;
+    }
+
+});
