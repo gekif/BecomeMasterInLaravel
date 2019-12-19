@@ -73,3 +73,14 @@ Route::get('/update', function () {
 
 });
 
+
+Route::get('/delete', function () {
+
+    $post = Post::find(1);
+
+    foreach ($post->tags as $tag) {
+        $tag->whereId(2)->delete();
+    }
+
+});
+
