@@ -47,3 +47,15 @@ Route::get('/read', function () {
     }
 
 });
+
+
+Route::get('/update', function () {
+
+    $user = User::findOrFail(1);
+
+    $user->posts()->whereId(1)->update([
+        'title' => 'I Love Laravel',
+        'body' => 'I Like You Laravel, Awesome'
+    ]);
+
+});
