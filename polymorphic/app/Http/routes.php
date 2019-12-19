@@ -41,3 +41,16 @@ Route::get('/read', function () {
     }
 
 });
+
+
+Route::get('/update', function () {
+
+    $staff = Staff::findOrFail(1);
+
+    $photo = $staff->photos()->whereId(1)->first();
+
+    $photo->path = "anjing.jpg";
+
+    $photo->save();
+
+});
