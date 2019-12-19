@@ -59,3 +59,12 @@ Route::get('/update', function () {
     ]);
 
 });
+
+
+Route::get('/delete', function () {
+
+    $user = User::findOrFail(1);
+
+    $user->posts()->whereId(1)->delete();
+
+});
