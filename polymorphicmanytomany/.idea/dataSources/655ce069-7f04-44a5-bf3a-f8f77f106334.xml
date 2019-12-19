@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="polymorphicmanytomany@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.4">
+    <root id="1"/>
+    <database id="2" parent="1" name="polymorphicmanytomany">
+      <ObjectId>27173</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="postgres">
+      <ObjectId>12401</ObjectId>
+    </database>
+    <database id="4" parent="1" name="mitrabiz_otp">
+      <ObjectId>16393</ObjectId>
+    </database>
+    <database id="5" parent="1" name="mitrabiz_sms">
+      <ObjectId>16394</ObjectId>
+    </database>
+    <database id="6" parent="1" name="laravel_qa">
+      <ObjectId>17418</ObjectId>
+    </database>
+    <database id="7" parent="1" name="laravelblogtdd">
+      <ObjectId>17784</ObjectId>
+    </database>
+    <database id="8" parent="1" name="multi_auth">
+      <ObjectId>17939</ObjectId>
+    </database>
+    <database id="9" parent="1" name="laravel_cms">
+      <ObjectId>26131</ObjectId>
+    </database>
+    <database id="10" parent="1" name="customize_default_auth">
+      <ObjectId>26256</ObjectId>
+    </database>
+    <database id="11" parent="1" name="onetoone">
+      <ObjectId>26559</ObjectId>
+    </database>
+    <database id="12" parent="1" name="onetomany">
+      <ObjectId>26621</ObjectId>
+    </database>
+    <database id="13" parent="1" name="forum">
+      <ObjectId>26658</ObjectId>
+    </database>
+    <database id="14" parent="1" name="manytomany">
+      <ObjectId>26785</ObjectId>
+    </database>
+    <database id="15" parent="1" name="polymorphic">
+      <ObjectId>26828</ObjectId>
+    </database>
+    <schema id="16" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <IntrospectionTimestamp>2019-12-19.17:26:09.692</IntrospectionTimestamp>
+      <IntrospectionStateNumber>5530</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="17" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="18" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="19" parent="2" name="pg_temp_1">
+      <ObjectId>11848</ObjectId>
+    </schema>
+    <schema id="20" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11849</ObjectId>
+    </schema>
+    <schema id="21" parent="2" name="information_schema">
+      <ObjectId>12113</ObjectId>
+    </schema>
+    <sequence id="22" parent="16" name="posts_id_seq">
+      <ObjectId>27198</ObjectId>
+      <StateNumber>5524</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="23" parent="16" name="taggables_id_seq">
+      <ObjectId>27222</ObjectId>
+      <StateNumber>5530</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="24" parent="16" name="tags_id_seq">
+      <ObjectId>27214</ObjectId>
+      <StateNumber>5528</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="25" parent="16" name="users_id_seq">
+      <ObjectId>27177</ObjectId>
+      <StateNumber>5517</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="26" parent="16" name="videos_id_seq">
+      <ObjectId>27206</ObjectId>
+      <StateNumber>5526</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <table id="27" parent="16" name="migrations">
+      <ObjectId>27174</ObjectId>
+      <StateNumber>5516</StateNumber>
+    </table>
+    <table id="28" parent="16" name="password_resets">
+      <ObjectId>27190</ObjectId>
+      <StateNumber>5520</StateNumber>
+    </table>
+    <table id="29" parent="16" name="posts">
+      <ObjectId>27200</ObjectId>
+      <StateNumber>5524</StateNumber>
+    </table>
+    <table id="30" parent="16" name="taggables">
+      <ObjectId>27224</ObjectId>
+      <StateNumber>5530</StateNumber>
+    </table>
+    <table id="31" parent="16" name="tags">
+      <ObjectId>27216</ObjectId>
+      <StateNumber>5528</StateNumber>
+    </table>
+    <table id="32" parent="16" name="users">
+      <ObjectId>27179</ObjectId>
+      <StateNumber>5517</StateNumber>
+    </table>
+    <table id="33" parent="16" name="videos">
+      <ObjectId>27208</ObjectId>
+      <StateNumber>5526</StateNumber>
+    </table>
+    <column id="34" parent="27" name="migration">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5516</StateNumber>
+    </column>
+    <column id="35" parent="27" name="batch">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5516</StateNumber>
+    </column>
+    <column id="36" parent="28" name="email">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5520</StateNumber>
+    </column>
+    <column id="37" parent="28" name="token">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5520</StateNumber>
+    </column>
+    <column id="38" parent="28" name="created_at">
+      <Position>3</Position>
+      <DataType>timestamp(0)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5520</StateNumber>
+    </column>
+    <index id="39" parent="28" name="password_resets_email_index">
+      <ObjectId>27196</ObjectId>
+      <ColNames>email</ColNames>
+    </index>
+    <index id="40" parent="28" name="password_resets_token_index">
+      <ObjectId>27197</ObjectId>
+      <ColNames>token</ColNames>
+    </index>
+    <column id="41" parent="29" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5524</StateNumber>
+      <SequenceName>posts_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;posts_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="42" parent="29" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5524</StateNumber>
+    </column>
+    <column id="43" parent="29" name="created_at">
+      <Position>3</Position>
+      <DataType>timestamp(0)|0</DataType>
+      <StateNumber>5524</StateNumber>
+    </column>
+    <column id="44" parent="29" name="updated_at">
+      <Position>4</Position>
+      <DataType>timestamp(0)|0</DataType>
+      <StateNumber>5524</StateNumber>
+    </column>
+    <index id="45" parent="29" name="posts_pkey">
+      <ObjectId>27204</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="46" parent="29" name="posts_pkey">
+      <ObjectId>27205</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>posts_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="47" parent="30" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5530</StateNumber>
+      <SequenceName>taggables_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;taggables_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="48" parent="30" name="tag_id">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5530</StateNumber>
+    </column>
+    <column id="49" parent="30" name="taggable_id">
+      <Position>3</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5530</StateNumber>
+    </column>
+    <column id="50" parent="30" name="taggable_type">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5530</StateNumber>
+    </column>
+    <column id="51" parent="30" name="created_at">
+      <Position>5</Position>
+      <DataType>timestamp(0)|0</DataType>
+      <StateNumber>5530</StateNumber>
+    </column>
+    <column id="52" parent="30" name="updated_at">
+      <Position>6</Position>
+      <DataType>timestamp(0)|0</DataType>
+      <StateNumber>5530</StateNumber>
+    </column>
+    <index id="53" parent="30" name="taggables_pkey">
+      <ObjectId>27228</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="54" parent="30" name="taggables_pkey">
+      <ObjectId>27229</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>taggables_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="55" parent="31" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5528</StateNumber>
+      <SequenceName>tags_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;tags_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="56" parent="31" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5528</StateNumber>
+    </column>
+    <column id="57" parent="31" name="created_at">
+      <Position>3</Position>
+      <DataType>timestamp(0)|0</DataType>
+      <StateNumber>5528</StateNumber>
+    </column>
+    <column id="58" parent="31" name="updated_at">
+      <Position>4</Position>
+      <DataType>timestamp(0)|0</DataType>
+      <StateNumber>5528</StateNumber>
+    </column>
+    <index id="59" parent="31" name="tags_pkey">
+      <ObjectId>27220</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="60" parent="31" name="tags_pkey">
+      <ObjectId>27221</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>tags_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="61" parent="32" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5517</StateNumber>
+      <SequenceName>users_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;users_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="62" parent="32" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5517</StateNumber>
+    </column>
+    <column id="63" parent="32" name="email">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5517</StateNumber>
+    </column>
+    <column id="64" parent="32" name="password">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5517</StateNumber>
+    </column>
+    <column id="65" parent="32" name="remember_token">
+      <Position>5</Position>
+      <DataType>varchar(100)|0</DataType>
+      <StateNumber>5517</StateNumber>
+    </column>
+    <column id="66" parent="32" name="created_at">
+      <Position>6</Position>
+      <DataType>timestamp(0)|0</DataType>
+      <StateNumber>5517</StateNumber>
+    </column>
+    <column id="67" parent="32" name="updated_at">
+      <Position>7</Position>
+      <DataType>timestamp(0)|0</DataType>
+      <StateNumber>5517</StateNumber>
+    </column>
+    <index id="68" parent="32" name="users_pkey">
+      <ObjectId>27186</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="69" parent="32" name="users_email_unique">
+      <ObjectId>27188</ObjectId>
+      <ColNames>email</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="70" parent="32" name="users_pkey">
+      <ObjectId>27187</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="71" parent="32" name="users_email_unique">
+      <ObjectId>27189</ObjectId>
+      <ColNames>email</ColNames>
+      <UnderlyingIndexName>users_email_unique</UnderlyingIndexName>
+    </key>
+    <column id="72" parent="33" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5526</StateNumber>
+      <SequenceName>videos_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;videos_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="73" parent="33" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5526</StateNumber>
+    </column>
+    <column id="74" parent="33" name="created_at">
+      <Position>3</Position>
+      <DataType>timestamp(0)|0</DataType>
+      <StateNumber>5526</StateNumber>
+    </column>
+    <column id="75" parent="33" name="updated_at">
+      <Position>4</Position>
+      <DataType>timestamp(0)|0</DataType>
+      <StateNumber>5526</StateNumber>
+    </column>
+    <index id="76" parent="33" name="videos_pkey">
+      <ObjectId>27212</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="77" parent="33" name="videos_pkey">
+      <ObjectId>27213</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>videos_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
