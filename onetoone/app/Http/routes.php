@@ -11,6 +11,22 @@
 |
 */
 
+use App\Address;
+use App\User;
+
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::get('/insert', function () {
+
+    $user = User::findOrFail(1);
+
+    $address = new Address([
+        'name' => 'Jalan Camar 2 Blok B3 16'
+    ]);
+
+    $user->address()->save($address);
+
+
 });
