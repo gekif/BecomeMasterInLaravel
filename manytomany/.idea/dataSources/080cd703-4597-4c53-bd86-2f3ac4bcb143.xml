@@ -42,7 +42,8 @@
     </database>
     <schema id="14" parent="2" name="public">
       <ObjectId>2200</ObjectId>
-      <IntrospectionTimestamp>2019-12-19.15:47:18.940</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2019-12-19.15:58:56.895</IntrospectionTimestamp>
+      <IntrospectionStateNumber>5296</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -61,5 +62,225 @@
     <schema id="19" parent="2" name="information_schema">
       <ObjectId>12113</ObjectId>
     </schema>
+    <sequence id="20" parent="14" name="role_user_id_seq">
+      <ObjectId>26818</ObjectId>
+      <StateNumber>5294</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="21" parent="14" name="roles_id_seq">
+      <ObjectId>26810</ObjectId>
+      <StateNumber>5292</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="22" parent="14" name="users_id_seq">
+      <ObjectId>26789</ObjectId>
+      <StateNumber>5285</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <table id="23" parent="14" name="migrations">
+      <ObjectId>26786</ObjectId>
+      <StateNumber>5284</StateNumber>
+    </table>
+    <table id="24" parent="14" name="password_resets">
+      <ObjectId>26802</ObjectId>
+      <StateNumber>5288</StateNumber>
+    </table>
+    <table id="25" parent="14" name="role_user">
+      <ObjectId>26820</ObjectId>
+      <StateNumber>5294</StateNumber>
+    </table>
+    <table id="26" parent="14" name="roles">
+      <ObjectId>26812</ObjectId>
+      <StateNumber>5292</StateNumber>
+    </table>
+    <table id="27" parent="14" name="users">
+      <ObjectId>26791</ObjectId>
+      <StateNumber>5285</StateNumber>
+    </table>
+    <column id="28" parent="23" name="migration">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5284</StateNumber>
+    </column>
+    <column id="29" parent="23" name="batch">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5284</StateNumber>
+    </column>
+    <column id="30" parent="24" name="email">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5288</StateNumber>
+    </column>
+    <column id="31" parent="24" name="token">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5288</StateNumber>
+    </column>
+    <column id="32" parent="24" name="created_at">
+      <Position>3</Position>
+      <DataType>timestamp(0)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5288</StateNumber>
+    </column>
+    <index id="33" parent="24" name="password_resets_email_index">
+      <ObjectId>26808</ObjectId>
+      <ColNames>email</ColNames>
+    </index>
+    <index id="34" parent="24" name="password_resets_token_index">
+      <ObjectId>26809</ObjectId>
+      <ColNames>token</ColNames>
+    </index>
+    <column id="35" parent="25" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5294</StateNumber>
+      <SequenceName>role_user_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;role_user_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="36" parent="25" name="user_id">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>5294</StateNumber>
+    </column>
+    <column id="37" parent="25" name="role_id">
+      <Position>3</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>5294</StateNumber>
+    </column>
+    <column id="38" parent="25" name="created_at">
+      <Position>4</Position>
+      <DataType>timestamp(0)|0</DataType>
+      <StateNumber>5294</StateNumber>
+    </column>
+    <column id="39" parent="25" name="updated_at">
+      <Position>5</Position>
+      <DataType>timestamp(0)|0</DataType>
+      <StateNumber>5294</StateNumber>
+    </column>
+    <index id="40" parent="25" name="role_user_pkey">
+      <ObjectId>26824</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="41" parent="25" name="role_user_user_id_index">
+      <ObjectId>26826</ObjectId>
+      <ColNames>user_id</ColNames>
+    </index>
+    <index id="42" parent="25" name="role_user_role_id_index">
+      <ObjectId>26827</ObjectId>
+      <ColNames>role_id</ColNames>
+    </index>
+    <key id="43" parent="25" name="role_user_pkey">
+      <ObjectId>26825</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>role_user_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="44" parent="26" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5292</StateNumber>
+      <SequenceName>roles_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;roles_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="45" parent="26" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5292</StateNumber>
+    </column>
+    <column id="46" parent="26" name="created_at">
+      <Position>3</Position>
+      <DataType>timestamp(0)|0</DataType>
+      <StateNumber>5292</StateNumber>
+    </column>
+    <column id="47" parent="26" name="updated_at">
+      <Position>4</Position>
+      <DataType>timestamp(0)|0</DataType>
+      <StateNumber>5292</StateNumber>
+    </column>
+    <index id="48" parent="26" name="roles_pkey">
+      <ObjectId>26816</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="49" parent="26" name="roles_pkey">
+      <ObjectId>26817</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>roles_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="50" parent="27" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5285</StateNumber>
+      <SequenceName>users_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;users_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="51" parent="27" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5285</StateNumber>
+    </column>
+    <column id="52" parent="27" name="email">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5285</StateNumber>
+    </column>
+    <column id="53" parent="27" name="password">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5285</StateNumber>
+    </column>
+    <column id="54" parent="27" name="remember_token">
+      <Position>5</Position>
+      <DataType>varchar(100)|0</DataType>
+      <StateNumber>5285</StateNumber>
+    </column>
+    <column id="55" parent="27" name="created_at">
+      <Position>6</Position>
+      <DataType>timestamp(0)|0</DataType>
+      <StateNumber>5285</StateNumber>
+    </column>
+    <column id="56" parent="27" name="updated_at">
+      <Position>7</Position>
+      <DataType>timestamp(0)|0</DataType>
+      <StateNumber>5285</StateNumber>
+    </column>
+    <index id="57" parent="27" name="users_pkey">
+      <ObjectId>26798</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="58" parent="27" name="users_email_unique">
+      <ObjectId>26800</ObjectId>
+      <ColNames>email</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="59" parent="27" name="users_pkey">
+      <ObjectId>26799</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="60" parent="27" name="users_email_unique">
+      <ObjectId>26801</ObjectId>
+      <ColNames>email</ColNames>
+      <UnderlyingIndexName>users_email_unique</UnderlyingIndexName>
+    </key>
   </database-model>
 </dataSource>
