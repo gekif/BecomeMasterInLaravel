@@ -17,6 +17,16 @@
 
     </form>
 
+    <form action="/posts/{{$post->id}}" method="post">
+
+        {{ csrf_field() }}
+
+        <input type="hidden" name="_method" value="DELETE">
+
+        <input type="submit" value="DELETE">
+
+    </form>
+
 @endsection
 
 
