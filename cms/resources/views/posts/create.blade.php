@@ -18,5 +18,3 @@
 @endsection
 
 
-
-@yield('footer')

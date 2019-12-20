@@ -16,7 +16,10 @@ class PostsController extends Controller
      */
     public function index()
     {
-        return "Hello Post, this is index method";
+        $posts = Post::all();
+
+        return view('posts.index', compact('posts'));
+
     }
 
     /**
@@ -38,6 +41,8 @@ class PostsController extends Controller
     public function store(Request $request)
     {
         Post::create($request->all());
+
+        return redirect('/posts');
 
 
 /*        $input = $request->all();
