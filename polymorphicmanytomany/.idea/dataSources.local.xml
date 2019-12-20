@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="polymorphicmanytomany@localhost" uuid="655ce069-7f04-44a5-bf3a-f8f77f106334">
+      <database-info product="PostgreSQL" version="9.6.15" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <introspection-schemas>polymorphicmanytomany:public</introspection-schemas>
+    </data-source>
+  </component>
+</project>
