@@ -7,9 +7,9 @@
 
     <form action="/posts" method="post">
 
-        <input type="text" name="title" placeholder="Enter Title">
-
         {{ csrf_field() }}
+
+        <input type="text" name="title" placeholder="Enter Title">
 
         <input type="submit" name="submit">
 
