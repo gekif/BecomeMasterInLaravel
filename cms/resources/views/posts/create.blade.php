@@ -5,17 +5,30 @@
 
     <h1>Create Post</h1>
 
-    {{--<form action="/posts" method="post">--}}
-
-    {!! Form::open() !!}
+    {!! Form::open([
+        'method' => 'POST',
+        'action' => 'PostsController@store'
+    ]) !!}
 
         {{ csrf_field() }}
 
-        <input type="text" name="title" placeholder="Enter Title">
+    <div class="form-group">
 
-        <input type="submit" name="submit">
+        {!! Form::label('title', 'Title:') !!}
 
-    {{--</form>--}}
+        {!! Form::text('title', null,[
+            'class' => 'form=control'
+        ]) !!}
+
+    </div>
+
+    <div class="form-group">
+
+        {!! Form::submit('Create Post', [
+            'class' => 'btn btn-primary'
+        ]) !!}
+
+    </div>
 
     {!! Form::close() !!}
 
