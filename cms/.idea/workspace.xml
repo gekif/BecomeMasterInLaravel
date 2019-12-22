@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3d22c38a-9d27-4ec4-9874-7184b6b3b289" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2019_12_17_044349_create_posts_table.php" afterPath="$PROJECT_DIR$/database/migrations/2019_12_17_044349_create_posts_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/posts/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/posts/edit.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,21 +58,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2019_12_17_044349_create_posts_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_12_17_044349_create_posts_table.php">
+      <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/posts/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="283">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding>
+                <marker date="1577020382531" expanded="true" signature="78:194" ph="..." />
+                <marker date="1577020382531" expanded="true" signature="91:192" ph="..." />
+                <marker date="1577020382531" expanded="true" signature="99:191" ph="..." />
+                <marker date="1577020382531" expanded="true" signature="286:363" ph="..." />
+                <marker date="1577020382531" expanded="true" signature="298:361" ph="..." />
+                <marker date="1577020382531" expanded="true" signature="313:360" ph="..." />
+                <marker date="1577020382531" expanded="true" signature="379:459" ph="..." />
+                <marker date="1577020382531" expanded="true" signature="393:457" ph="..." />
+                <marker date="1577020382531" expanded="true" signature="409:456" ph="..." />
+                <marker date="1577020382531" expanded="true" signature="498:619" ph="..." />
+                <marker date="1577020382531" expanded="true" signature="511:617" ph="..." />
+                <marker date="1577020382531" expanded="true" signature="519:616" ph="..." />
+                <marker date="1577020382531" expanded="true" signature="663:745" ph="..." />
+                <marker date="1577020382531" expanded="true" signature="677:743" ph="..." />
+                <marker date="1577020382531" expanded="true" signature="693:734" ph="..." />
+                <marker date="1577020382531" expanded="true" signature="693:742" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/posts/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            <state relative-caret-position="198">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="20" selection-end-column="14" />
               <folding>
                 <marker date="1577019637146" expanded="true" signature="80:173" ph="..." />
                 <marker date="1577019637146" expanded="true" signature="92:171" ph="..." />
@@ -130,11 +146,11 @@
         <option value="$PROJECT_DIR$/resources/views/posts/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/posts/show.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" />
-        <option value="$PROJECT_DIR$/resources/views/posts/edit.blade.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_12_17_044349_create_posts_table.php" />
         <option value="$PROJECT_DIR$/resources/views/posts/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/posts/edit.blade.php" />
       </list>
     </option>
   </component>
@@ -209,7 +225,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="SearchEverywhereHistoryKey" value="create&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/database/migrations/2019_12_17_044349_create_posts_table.php&#10;app&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/config/app.php&#10;app.php&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/layouts/app.blade.php&#10;edit&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/posts/edit.blade.php&#10;show&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/posts/show.blade.php&#10;Posts&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Http/Controllers/PostsController.php&#10;crea&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/posts/create.blade.php&#10;index&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/posts/index.blade.php&#10;index.bl&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/posts/index.blade.php&#10;createposts&#9;null&#9;null&#10;routes&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Http/routes.php&#10;post&#9;null&#9;null&#10;Post&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Post.php&#10;Tag&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Tag.php&#10;tagga&#9;null&#9;null&#10;Tagga&#9;null&#9;null&#10;tags&#9;null&#9;null&#10;video&#9;null&#9;null&#10;Video&#9;null&#9;null&#10;Photo&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Photo.php&#10;route&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Http/routes.php&#10;User&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/User.php&#10;photo&#9;null&#9;null&#10;posts&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/database/migrations/2019_12_17_044349_create_posts_table.php&#10;phot&#9;null&#9;null&#10;Countr&#9;null&#9;null&#10;countr&#9;null&#9;null&#10;Role&#9;null&#9;null&#10;user&#9;null&#9;null&#10;add_de&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/database/migrations/2019_12_17_054931_add_deleted_at_column_to_posts_tables.php&#10;contac&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/contact.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="edit&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/posts/edit.blade.php&#10;create&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/database/migrations/2019_12_17_044349_create_posts_table.php&#10;app&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/config/app.php&#10;app.php&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/layouts/app.blade.php&#10;show&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/posts/show.blade.php&#10;Posts&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Http/Controllers/PostsController.php&#10;crea&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/posts/create.blade.php&#10;index&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/posts/index.blade.php&#10;index.bl&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/posts/index.blade.php&#10;createposts&#9;null&#9;null&#10;routes&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Http/routes.php&#10;post&#9;null&#9;null&#10;Post&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Post.php&#10;Tag&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Tag.php&#10;tagga&#9;null&#9;null&#10;Tagga&#9;null&#9;null&#10;tags&#9;null&#9;null&#10;video&#9;null&#9;null&#10;Video&#9;null&#9;null&#10;Photo&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Photo.php&#10;route&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Http/routes.php&#10;User&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/User.php&#10;photo&#9;null&#9;null&#10;posts&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/database/migrations/2019_12_17_044349_create_posts_table.php&#10;phot&#9;null&#9;null&#10;Countr&#9;null&#9;null&#10;countr&#9;null&#9;null&#10;Role&#9;null&#9;null&#10;user&#9;null&#9;null&#10;add_de&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/database/migrations/2019_12_17_054931_add_deleted_at_column_to_posts_tables.php&#10;contac&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/contact.blade.php" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
   </component>
   <component name="RunDashboard">
@@ -244,14 +260,7 @@
       <workItem from="1576640421709" duration="1868000" />
       <workItem from="1576808901262" duration="40000" />
       <workItem from="1576836520740" duration="3129000" />
-      <workItem from="1577014996986" duration="2047000" />
-    </task>
-    <task id="LOCAL-00006" summary="5. Laravel Fundamentals - Controllers: 4. Passing data">
-      <created>1576550716765</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1576550716765</updated>
+      <workItem from="1577014996986" duration="2747000" />
     </task>
     <task id="LOCAL-00007" summary="5. Laravel Fundamentals - Controllers: 5. Resources and Controllers">
       <created>1576551001588</created>
@@ -589,11 +598,18 @@
       <option name="project" value="LOCAL" />
       <updated>1577019245939</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="19. Forms - Package and validation: 3. Modifying our create form with the form package">
+      <created>1577019718977</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1577019718978</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22661000" />
+    <option name="totallyTimeSpent" value="23361000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="0" width="704" height="722" extended-state="0" />
@@ -607,7 +623,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3327645" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3327645" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -653,7 +669,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="11. Laravel Fundamentals - Database - Eloquent Relationships: 2. One to One relationship" />
     <MESSAGE value="11. Laravel Fundamentals - Database - Eloquent Relationships: 3. The inverse relation" />
     <MESSAGE value="11. Laravel Fundamentals - Database - Eloquent Relationships: 4. One to many relationship" />
     <MESSAGE value="11. Laravel Fundamentals - Database - Eloquent Relationships: 6. Many to many relations part 1" />
@@ -678,7 +693,8 @@
     <MESSAGE value="18. Forms and Validation: 10. 10- Editing records and redirecting" />
     <MESSAGE value="18. Forms and Validation: 11. 11- Deleting" />
     <MESSAGE value="19. Forms - Package and validation: 2. Installing package and testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="19. Forms - Package and validation: 2. Installing package and testing" />
+    <MESSAGE value="19. Forms - Package and validation: 3. Modifying our create form with the form package" />
+    <option name="LAST_COMMIT_MESSAGE" value="19. Forms - Package and validation: 3. Modifying our create form with the form package" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -981,14 +997,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/posts/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1041,8 +1049,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/posts/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        <state relative-caret-position="198">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="20" selection-end-column="14" />
           <folding>
             <marker date="1577019637146" expanded="true" signature="80:173" ph="..." />
             <marker date="1577019637146" expanded="true" signature="92:171" ph="..." />
@@ -1054,6 +1062,31 @@
             <marker date="1577019637146" expanded="true" signature="444:511" ph="..." />
             <marker date="1577019637146" expanded="true" signature="460:510" ph="..." />
             <marker date="1577019637146" expanded="true" signature="517:528" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/posts/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <marker date="1577020382531" expanded="true" signature="78:194" ph="..." />
+            <marker date="1577020382531" expanded="true" signature="91:192" ph="..." />
+            <marker date="1577020382531" expanded="true" signature="99:191" ph="..." />
+            <marker date="1577020382531" expanded="true" signature="286:363" ph="..." />
+            <marker date="1577020382531" expanded="true" signature="298:361" ph="..." />
+            <marker date="1577020382531" expanded="true" signature="313:360" ph="..." />
+            <marker date="1577020382531" expanded="true" signature="379:459" ph="..." />
+            <marker date="1577020382531" expanded="true" signature="393:457" ph="..." />
+            <marker date="1577020382531" expanded="true" signature="409:456" ph="..." />
+            <marker date="1577020382531" expanded="true" signature="498:619" ph="..." />
+            <marker date="1577020382531" expanded="true" signature="511:617" ph="..." />
+            <marker date="1577020382531" expanded="true" signature="519:616" ph="..." />
+            <marker date="1577020382531" expanded="true" signature="663:745" ph="..." />
+            <marker date="1577020382531" expanded="true" signature="677:743" ph="..." />
+            <marker date="1577020382531" expanded="true" signature="693:734" ph="..." />
+            <marker date="1577020382531" expanded="true" signature="693:742" ph="..." />
           </folding>
         </state>
       </provider>
