@@ -5,7 +5,9 @@
 
     <h1>Create Post</h1>
 
-    <form action="/posts" method="post">
+    {{--<form action="/posts" method="post">--}}
+
+    {!! Form::open() !!}
 
         {{ csrf_field() }}
 
@@ -13,7 +15,9 @@
 
         <input type="submit" name="submit">
 
-    </form>
+    {{--</form>--}}
+
+    {!! Form::close() !!}
 
 @endsection
 
