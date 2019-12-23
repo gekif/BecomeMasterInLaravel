@@ -16,6 +16,7 @@
 
 });*/
 
+use App\User;
 use Carbon\Carbon;
 
 Route::resource('/posts', 'PostsController');
@@ -43,7 +44,13 @@ Route::get('/dates', function () {
     echo Carbon::now()->yesterday()->diffForHumans();
     echo '<br>';
 
+});
 
 
+Route::get('/getname', function () {
+
+    $user = User::find(2);
+
+    echo $user->name;
 
 });
