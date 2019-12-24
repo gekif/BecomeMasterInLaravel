@@ -41,7 +41,22 @@ class PostsController extends Controller
      */
     public function store(CreatePostRequest $request)
     {
-        $file = $request->file('file');
+        $input = $request->all();
+
+        if ($file = $request->file('file')) {
+
+            $name = $file->getClientOriginalName();
+
+            $file->move('images', $name);
+
+            $input['path'] = $name;
+
+        }
+
+        Post::create($input);
+
+
+        /*$file = $request->file('file');
 
         echo '<br>';
 
@@ -49,7 +64,7 @@ class PostsController extends Controller
         echo '<br>';
 
         echo $file->getClientSize();
-        echo '<br>';
+        echo '<br>';*/
 
 
 
