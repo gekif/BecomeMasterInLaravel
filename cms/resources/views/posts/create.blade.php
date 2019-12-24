@@ -7,7 +7,8 @@
 
     {!! Form::open([
         'method' => 'POST',
-        'action' => 'PostsController@store'
+        'action' => 'PostsController@store',
+        'files' => true
     ]) !!}
 
     <div class="form-group">
@@ -19,6 +20,16 @@
         ]) !!}
 
     </div>
+
+
+    <div class="form-group">
+
+        {!! Form::file('file',[
+            'class' => 'form=control'
+        ]) !!}
+
+    </div>
+
 
     <div class="form-group">
 
