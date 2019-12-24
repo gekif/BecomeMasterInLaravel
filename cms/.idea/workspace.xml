@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3d22c38a-9d27-4ec4-9874-7184b6b3b289" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Post.php" afterPath="$PROJECT_DIR$/app/Post.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,14 +49,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PostsController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PostsController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="49" column="31" lean-forward="false" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+            <state relative-caret-position="173">
+              <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
               <folding>
                 <element signature="e#40#80#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/posts/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,8 +83,8 @@
       <file leaf-file-name="Post.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="173">
+              <caret line="44" column="33" lean-forward="false" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -114,7 +124,6 @@
         <option value="$PROJECT_DIR$/app/Tag.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_12_18_031644_create_taggables_table.php" />
         <option value="$PROJECT_DIR$/resources/views/vendor/.gitkeep" />
-        <option value="$PROJECT_DIR$/resources/views/posts/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/posts/show.blade.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/config/app.php" />
@@ -126,8 +135,9 @@
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/posts/create.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_12_24_105327_add_path_column_to_posts.php" />
-        <option value="$PROJECT_DIR$/app/Post.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" />
+        <option value="$PROJECT_DIR$/app/Post.php" />
+        <option value="$PROJECT_DIR$/resources/views/posts/index.blade.php" />
       </list>
     </option>
   </component>
@@ -150,7 +160,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -163,14 +173,49 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.other" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="SearchEverywhereHistoryKey" value="Post&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Post.php&#10;add_co&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/database/migrations/2019_12_24_105327_add_path_column_to_posts.php&#10;Posts&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Http/Controllers/PostsController.php&#10;create&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/posts/create.blade.php&#10;User&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/User.php&#10;posts&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Http/Controllers/PostsController.php&#10;routes&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Http/routes.php&#10;CreatePost&#9;null&#9;null&#10;create/&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/posts/create.blade.php&#10;edit&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/posts/edit.blade.php&#10;app&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/config/app.php&#10;app.php&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/layouts/app.blade.php&#10;show&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/posts/show.blade.php&#10;crea&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/posts/create.blade.php&#10;index&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/posts/index.blade.php&#10;index.bl&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/posts/index.blade.php&#10;createposts&#9;null&#9;null&#10;post&#9;null&#9;null&#10;Tag&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Tag.php&#10;tagga&#9;null&#9;null&#10;Tagga&#9;null&#9;null&#10;tags&#9;null&#9;null&#10;video&#9;null&#9;null&#10;Video&#9;null&#9;null&#10;Photo&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Photo.php&#10;route&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Http/routes.php&#10;photo&#9;null&#9;null&#10;phot&#9;null&#9;null&#10;Countr&#9;null&#9;null&#10;countr&#9;null&#9;null&#10;Role&#9;null&#9;null&#10;user&#9;null&#9;null&#10;add_de&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/database/migrations/2019_12_17_054931_add_deleted_at_column_to_posts_tables.php&#10;contac&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/contact.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/posts/index.blade.php&#10;Post&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Post.php&#10;add_co&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/database/migrations/2019_12_24_105327_add_path_column_to_posts.php&#10;Posts&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Http/Controllers/PostsController.php&#10;create&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/posts/create.blade.php&#10;User&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/User.php&#10;posts&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Http/Controllers/PostsController.php&#10;routes&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Http/routes.php&#10;CreatePost&#9;null&#9;null&#10;create/&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/posts/create.blade.php&#10;edit&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/posts/edit.blade.php&#10;app&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/config/app.php&#10;app.php&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/layouts/app.blade.php&#10;show&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/posts/show.blade.php&#10;crea&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/posts/create.blade.php&#10;index.bl&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/posts/index.blade.php&#10;createposts&#9;null&#9;null&#10;post&#9;null&#9;null&#10;Tag&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Tag.php&#10;tagga&#9;null&#9;null&#10;Tagga&#9;null&#9;null&#10;tags&#9;null&#9;null&#10;video&#9;null&#9;null&#10;Video&#9;null&#9;null&#10;Photo&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Photo.php&#10;route&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/app/Http/routes.php&#10;photo&#9;null&#9;null&#10;phot&#9;null&#9;null&#10;Countr&#9;null&#9;null&#10;countr&#9;null&#9;null&#10;Role&#9;null&#9;null&#10;user&#9;null&#9;null&#10;add_de&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/database/migrations/2019_12_17_054931_add_deleted_at_column_to_posts_tables.php&#10;contac&#9;FILE&#9;file://C:/xampp/htdocs/BecomeMasterInLaravel/cms/resources/views/contact.blade.php" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
   </component>
   <component name="RunDashboard">
@@ -209,14 +254,7 @@
       <workItem from="1577085074479" duration="3846000" />
       <workItem from="1577097933542" duration="1350000" />
       <workItem from="1577154746187" duration="96000" />
-      <workItem from="1577183986569" duration="1193000" />
-    </task>
-    <task id="LOCAL-00017" summary="9. Laravel Fundamentals - Raw SQL Queries: 4. Updating Data">
-      <created>1576559534513</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1576559534513</updated>
+      <workItem from="1577183986569" duration="1565000" />
     </task>
     <task id="LOCAL-00018" summary="9. Laravel Fundamentals - Raw SQL Queries: 5. Deleting Data">
       <created>1576559676077</created>
@@ -554,11 +592,18 @@
       <option name="project" value="LOCAL" />
       <updated>1577184625173</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="21. Forms - Uploading files: 4. Persisting file data into the database">
+      <created>1577185188994</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1577185188995</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31263000" />
+    <option name="totallyTimeSpent" value="31635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="0" width="704" height="722" extended-state="0" />
@@ -618,7 +663,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="11. Laravel Fundamentals - Database - Eloquent Relationships: 14. Polymorphic relation many to many part 1" />
     <MESSAGE value="11. Laravel Fundamentals - Database - Eloquent Relationships: 15. Polymorphic relation many to many part 2" />
     <MESSAGE value="11. Laravel Fundamentals - Database - Eloquent Relationships: 16. Polymorphic relation many to many - retrieving" />
     <MESSAGE value="11. Laravel Fundamentals - Database - Eloquent Relationships: 17. Polymorphic relation many to many - retrieving owner" />
@@ -643,7 +687,8 @@
     <MESSAGE value="20. Database - Some more model manipulation: 5. Query Scope" />
     <MESSAGE value="21. Forms - Uploading files: 2. Modifying our create view for file input" />
     <MESSAGE value="21. Forms - Uploading files: 3. Retrieving file data" />
-    <option name="LAST_COMMIT_MESSAGE" value="21. Forms - Uploading files: 3. Retrieving file data" />
+    <MESSAGE value="21. Forms - Uploading files: 4. Persisting file data into the database" />
+    <option name="LAST_COMMIT_MESSAGE" value="21. Forms - Uploading files: 4. Persisting file data into the database" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -853,13 +898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/posts/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/posts/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -994,14 +1032,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/775368a0/79d2996a-c2bc-4980-9fdb-b072cc089c5b/laravel_cms.public.posts">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1011,11 +1041,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="49" column="31" lean-forward="false" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+        <state relative-caret-position="173">
+          <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
           <folding>
             <element signature="e#40#80#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="44" column="33" lean-forward="false" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/posts/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
