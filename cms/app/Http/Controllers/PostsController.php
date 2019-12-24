@@ -41,13 +41,26 @@ class PostsController extends Controller
      */
     public function store(CreatePostRequest $request)
     {
+        $file = $request->file('file');
+
+        echo '<br>';
+
+        echo $file->getClientOriginalName();
+        echo '<br>';
+
+        echo $file->getClientSize();
+        echo '<br>';
+
+
+
+
 //        $this->validate($request, [
 //            'title' => 'required'
 //        ]);
 
-        Post::create($request->all());
+        /*Post::create($request->all());
 
-        return redirect('/posts');
+        return redirect('/posts');*/
 
 
 /*        $input = $request->all();
