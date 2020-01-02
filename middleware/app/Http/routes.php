@@ -21,7 +21,7 @@ Route::auth();
 
 Route::get('/home', 'HomeController@index');
 
-Route::get('/admin/user/roles', ['middleware' => ['role', 'auth', 'web'], function () {
+Route::get('/admin/user/roles', ['middleware' => ['web'], function () {
 
     return 'Middleware Role';
 
