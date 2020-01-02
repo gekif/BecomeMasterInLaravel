@@ -11,6 +11,24 @@
 |
 */
 
+use Illuminate\Support\Facades\Mail;
+
 Route::get('/', function () {
-    return view('welcome');
+//    return view('welcome');
+
+    $data = [
+
+        'title' => 'Hi Teman',
+        'content' => 'Ini gua kirim email, diterima ya, thank you'
+
+    ];
+
+    Mail::send('emails.test', $data, function ($message) {
+
+        $message
+            ->to('dzulfikar.maulana@gmail.com', 'Dzulfikar Maulana')
+            ->subject('Hello Semuanya, Apa Kabar?')
+        ;
+
+    });
 });
