@@ -11,8 +11,18 @@
 |
 */
 
+use Illuminate\Support\Facades\Auth;
+
 Route::get('/', function () {
-    return view('welcome');
+
+    $user = Auth::user();
+
+    if ($user->isAdmin()) {
+
+        echo "This user ia an administrator";
+
+    }
+
 });
 
 Route::auth();
