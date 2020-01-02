@@ -24,15 +24,9 @@ class HomeController extends Controller
      */
     public function index(Request $request)
     {
-        /*session(['gekif'=> 'fikar']);
+        $request->session()->flash('message', 'Post has been created');
 
-        return session('gekif');*/
-
-//        $request->session()->forget('felix');
-
-        $request->session()->flush();
-
-        return $request->session()->all();
+        return $request->session()->get('message');
 
 //        return view('home');
     }
