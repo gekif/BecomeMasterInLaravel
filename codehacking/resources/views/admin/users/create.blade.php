@@ -33,7 +33,7 @@
 
              {!! Form::label('role_id', 'Role:') !!}
 
-            {!! Form::text('role_id', null,[
+            {!! Form::select('role_id', ['' => 'Choose Options'] + $roles , null,[
                 'class' => 'form-control'
             ]) !!}
 
