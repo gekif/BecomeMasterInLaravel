@@ -14,7 +14,7 @@
             {!! Form::label('name', 'Name:') !!}
 
             {!! Form::text('name', null,[
-                'class' => 'form=control'
+                'class' => 'form-control'
             ]) !!}
 
         </div>
@@ -24,7 +24,7 @@
             {!! Form::label('email', 'Email:') !!}
 
             {!! Form::email('email', null,[
-                'class' => 'form=control'
+                'class' => 'form-control'
             ]) !!}
 
         </div>
@@ -34,7 +34,7 @@
              {!! Form::label('role_id', 'Role:') !!}
 
             {!! Form::text('role_id', null,[
-                'class' => 'form=control'
+                'class' => 'form-control'
             ]) !!}
 
         </div>
@@ -43,8 +43,8 @@
 
             {!! Form::label('status', 'Status:') !!}
 
-            {!! Form::text('status', null,[
-                'class' => 'form=control'
+            {!! Form::select('status', array(1 => 'Active', 0 => 'Not Active'), null,[
+                'class' => 'form-control'
             ]) !!}
 
         </div>
