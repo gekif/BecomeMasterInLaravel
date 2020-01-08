@@ -42,9 +42,9 @@
 
         <div class="form-group">
 
-            {!! Form::label('status', 'Status:') !!}
+            {!! Form::label('is_active', 'Status:') !!}
 
-            {!! Form::select('status', array(1 => 'Active', 0 => 'Not Active'), null,[
+            {!! Form::select('is_active', array(1 => 'Active', 0 => 'Not Active'), null,[
                 'class' => 'form-control'
             ]) !!}
 
