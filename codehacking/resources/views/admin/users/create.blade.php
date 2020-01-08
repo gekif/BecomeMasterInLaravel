@@ -53,7 +53,7 @@
 
             {!! Form::label('password', 'Password:') !!}
 
-            {!! Form::password('password', null,[
+            {!! Form::password('password',[
                 'class' => 'form-control'
             ]) !!}
 
@@ -66,5 +66,9 @@
             ]) !!}
 
         </div>
+
+    {!! Form::close() !!}
+
+    @include('includes.form_error')
 
 @endsection
