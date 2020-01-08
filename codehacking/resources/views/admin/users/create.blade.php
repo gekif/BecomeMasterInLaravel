@@ -6,7 +6,8 @@
 
     {!! Form::open([
             'method' => 'POST',
-            'action' => 'AdminUsersController@store'
+            'action' => 'AdminUsersController@store',
+            'files' => true
         ]) !!}
 
         <div class="form-group">
@@ -44,6 +45,16 @@
             {!! Form::label('status', 'Status:') !!}
 
             {!! Form::select('status', array(1 => 'Active', 0 => 'Not Active'), null,[
+                'class' => 'form-control'
+            ]) !!}
+
+        </div>
+
+        <div class="form-group">
+
+            {!! Form::label('file', 'File:') !!}
+
+            {!! Form::file('file', null,[
                 'class' => 'form-control'
             ]) !!}
 
