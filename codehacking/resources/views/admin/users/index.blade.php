@@ -25,7 +25,7 @@
           <tr>
             <td>{{ $user->id }}</td>
             <td><img height="50" src="{{ $user->photo ? $user->photo->file : 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/300px-No_image_available.svg.png' }}" alt=""></td>
-            <td>{{ $user->name }}</td>
+            <td><a href="{{route('admin.users.edit', $user->id)}}">{{ $user->name }}</a></td>
             <td>{{ $user->email }}</td>
             <td>{{ $user->role->name }}</td>
             <td>{{ $user->is_active == 1 ? 'Active' : 'Not Active' }}</td>
