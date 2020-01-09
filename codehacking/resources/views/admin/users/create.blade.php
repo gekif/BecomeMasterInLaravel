@@ -52,9 +52,9 @@
 
         <div class="form-group">
 
-            {!! Form::label('file', 'File:') !!}
+            {!! Form::label('photo_id', 'File:') !!}
 
-            {!! Form::file('file', null,[
+            {!! Form::file('photo_id', null,[
                 'class' => 'form-control'
             ]) !!}
 
