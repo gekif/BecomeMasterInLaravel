@@ -3,63 +3,70 @@
 
 @section('content')
 
-    <h1>Create Post</h1>
+<h1>Create Post</h1>
 
+<div class="row">
     {!! Form::open([
-            'method' => 'POST',
-            'action' => 'AdminPostsController@store'
+        'method' => 'POST',
+        'action' => 'AdminPostsController@store'
+    ]) !!}
+
+    <div class="form-group">
+
+        {!! Form::label('title', 'Title:') !!}
+
+        {!! Form::text('title', null,[
+            'class' => 'form-control',
+            'files' => true
         ]) !!}
 
-        <div class="form-group">
+    </div>
 
-            {!! Form::label('title', 'Title:') !!}
+    <div class="form-group">
 
-            {!! Form::text('title', null,[
-                'class' => 'form-control',
-                'files' => true
-            ]) !!}
+        {!! Form::label('category_id', 'Category:') !!}
 
-        </div>
+        {!! Form::select('category_id', array( '' => 'options'), null,[
+            'class' => 'form-control'
+        ]) !!}
 
-        <div class="form-group">
+    </div>
 
-            {!! Form::label('category_id', 'Category:') !!}
+    <div class="form-group">
 
-            {!! Form::select('category_id', array( '' => 'options'), null,[
-                'class' => 'form-control'
-            ]) !!}
+        {!! Form::label('photo_id', 'Photo:') !!}
 
-        </div>
+        {!! Form::file('photo_id', null, [
+            'class' => 'form-control'
+        ]) !!}
 
-        <div class="form-group">
+    </div>
 
-            {!! Form::label('photo_id', 'Photo:') !!}
+    <div class="form-group">
 
-            {!! Form::file('photo_id', null, [
-                'class' => 'form-control'
-            ]) !!}
+        {!! Form::label('body', 'Description:') !!}
 
-        </div>
+        {!! Form::textarea('body', null, [
+            'class' => 'form-control',
+        ]) !!}
 
-        <div class="form-group">
+    </div>
 
-            {!! Form::label('body', 'Description:') !!}
+    <div class="form-group">
 
-            {!! Form::textarea('body', null, [
-                'class' => 'form-control',
-                'rows' => 3
-            ]) !!}
+        {!! Form::submit('Create Post', [
+                'class' => 'btn btn-primary'
+        ]) !!}
 
-        </div>
+    </div>
 
-        <div class="form-group">
+    {!! Form::close() !!}
+</div>
 
-            {!! Form::submit('Create Post', [
-                    'class' => 'btn btn-primary'
-            ]) !!}
 
-        </div>
+<div class="row">
+    @include('includes.form_error')
+</div>
 
-        {!! Form::close() !!}
 
 @endsection
