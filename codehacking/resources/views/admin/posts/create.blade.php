@@ -8,7 +8,8 @@
 <div class="row">
     {!! Form::open([
         'method' => 'POST',
-        'action' => 'AdminPostsController@store'
+        'action' => 'AdminPostsController@store',
+        'files' => true
     ]) !!}
 
     <div class="form-group">
@@ -16,8 +17,7 @@
         {!! Form::label('title', 'Title:') !!}
 
         {!! Form::text('title', null,[
-            'class' => 'form-control',
-            'files' => true
+            'class' => 'form-control'
         ]) !!}
 
     </div>
@@ -26,7 +26,7 @@
 
         {!! Form::label('category_id', 'Category:') !!}
 
-        {!! Form::select('category_id', array( '' => 'options'), null,[
+        {!! Form::select('category_id', array( '1' => 'Coding'), null,[
             'class' => 'form-control'
         ]) !!}
 
@@ -36,7 +36,7 @@
 
         {!! Form::label('photo_id', 'Photo:') !!}
 
-        {!! Form::file('photo_id', null, [
+        {!! Form::file('photo_id', null,[
             'class' => 'form-control'
         ]) !!}
 
