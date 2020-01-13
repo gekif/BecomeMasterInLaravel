@@ -26,7 +26,7 @@
 
         {!! Form::label('category_id', 'Category:') !!}
 
-        {!! Form::select('category_id', array( '1' => 'Coding'), null,[
+        {!! Form::select('category_id', array( '1' => 'PHP', '2' => 'Javascript'), null,[
             'class' => 'form-control'
         ]) !!}
 
