@@ -54,7 +54,7 @@
 
         <div class="form-group">
 
-            {!! Form::submit('Edit Post', [
+            {!! Form::submit('Update Post', [
                     'class' => 'btn btn-primary'
             ]) !!}
 
