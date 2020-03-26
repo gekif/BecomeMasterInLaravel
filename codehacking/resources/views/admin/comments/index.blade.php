@@ -18,7 +18,6 @@
     </thead>
     <tbody>
 
-
     @php $i = 1 @endphp
     @foreach ($comments as $comment)
     <tr>
