@@ -3,7 +3,7 @@
 @section('content')
 
 
-    @if ($comment)
+    @if (count($comments) > 0)
 
         <h1>Comments</h1>
 
@@ -18,8 +18,10 @@
             </thead>
             <tbody>
 
+            @php $i = 1 @endphp
+            @foreach ($comments as $comment)
                 <tr>
-                    <td>{{ $comment->id }}</td>
+                    <td>{{ $i++ }}</td>
                     <td>{{ $comment->author }}</td>
                     <td>{{ $comment->email }}</td>
                     <td>{{ $comment->body }}</td>
@@ -70,14 +72,15 @@
 
 
                 </tr>
-
+            @endforeach
 
             </tbody>
         </table>
 
-
-@else
+    @else
         <h1 class="text-center">No Comments</h1>
-@endif
+
+
+    @endif
 
 @stop
