@@ -81,6 +81,29 @@
             </h4>
             {{ $comment->body }}
 
+            <div class="comment-reply-container">
+                <button class="toggle-reply btn btn-primary pull-right">Reply</button>
+
+                <div class="comment-reply">
+                    {!! Form::open(['method' => 'POST', 'action' => 'CommentRepliesController@createReply']) !!}
+
+                    <div class="form-group">
+
+                        <input type="hidden" name="comment_id" value="{{ $comment->id }}">
+
+                        {!! Form::label('body', 'Body:') !!}
+                        {!! Form::textarea('body', null, ['class' => 'form-control', 'rows' => 1]) !!}
+                    </div>
+
+                    <div class="form-group">
+                        {!! Form::submit('Submit', ['class' => 'btn btn-primary']) !!}
+                    </div>
+
+                    {!! Form::close() !!}
+                </div>
+
+            </div>
+
         <br>
 
         @if (Session::has('reply_message'))
@@ -92,7 +115,7 @@
 
             @foreach ($comment->replies as $reply)
 
-
+                @if ($reply->is_active == 1)
 
                     <!-- Nested Comment -->
                         <div id="nested-comment" class="media">
@@ -106,30 +129,11 @@
                                 {{ $reply->body }}
                             </div>
 
-                            <div class="comment-reply-container">
-                                <button class="toggle-reply btn btn-primary pull-right">Reply</button>
-
-                                <div class="comment-reply col-sm-6">
-                                    {!! Form::open(['method' => 'POST', 'action' => 'CommentRepliesController@createReply']) !!}
-
-                                        <div class="form-group">
-
-                                            <input type="hidden" name="comment_id" value="{{ $comment->id }}">
-
-                                            {!! Form::label('body', 'Body:') !!}
-                                            {!! Form::textarea('body', null, ['class' => 'form-control', 'rows' => 1]) !!}
-                                        </div>
-
-                                        <div class="form-group">
-                                            {!! Form::submit('Submit', ['class' => 'btn btn-primary']) !!}
-                                        </div>
-
-                                    {!! Form::close() !!}
-                                </div>
-
-                </div>
                 <!-- End Nested Comment -->
                 </div>
+
+
+                @endif
 
                 @endforeach
             @endif

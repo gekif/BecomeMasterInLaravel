@@ -25,6 +25,7 @@
                     <td>{{ $reply->author }}</td>
                     <td>{{ $reply->email }}</td>
                     <td>{{ $reply->body }}</td>
+                    <td><a href="{{ route('home.post', $reply->comment->post->id) }}" class="btn btn-primary">View Post </a></td>
                     <td>
                         @if ($reply->is_active == 1)
                             {!! Form::open([
@@ -78,7 +79,6 @@
 
     @else
         <h1 class="text-center">No Replies</h1>
-
 
     @endif
 
