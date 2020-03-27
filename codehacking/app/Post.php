@@ -2,10 +2,11 @@
 
 namespace App;
 
+use Cviebrock\EloquentSluggable\SluggableInterface;
 use Cviebrock\EloquentSluggable\SluggableTrait;
 use Illuminate\Database\Eloquent\Model;
 
-class Post extends Model
+class Post extends Model implements SluggableInterface
 {
     use SluggableTrait;
 
@@ -20,7 +21,8 @@ class Post extends Model
       'category_id',
       'photo_id',
       'title',
-      'body'
+      'body',
+      'slug'
     ];
 
 
