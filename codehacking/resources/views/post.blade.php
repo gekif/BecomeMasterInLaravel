@@ -80,24 +80,8 @@
                 <small>{{ $comment->created_at->diffForHumans() }}</small>
             </h4>
             {{ $comment->body }}
-        </div>
-    </div>
 
-    @endforeach
-
-@endif
-
-    <!-- Comment -->
-    <div class="media">
-        <a class="pull-left" href="#">
-            <img class="media-object" src="http://placehold.it/64x64" alt="">
-        </a>
-        <div class="media-body">
-            <h4 class="media-heading">Start Bootstrap
-                <small>August 25, 2014 at 9:30 PM</small>
-            </h4>
-            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-            <!-- Nested Comment -->
+        <!-- Nested Comment -->
             <div class="media">
                 <a class="pull-left" href="#">
                     <img class="media-object" src="http://placehold.it/64x64" alt="">
@@ -108,9 +92,31 @@
                     </h4>
                     Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                 </div>
+
+
+                {!! Form::open(['method' => 'POST', 'action' => 'CommentRepliesController@createReply']) !!}
+
+                    <div class="form-group">
+                        {!! Form::label('body', 'Body:') !!}
+                        {!! Form::textarea('body', null, ['class' => 'form-control', 'row' => 1]) !!}
+                    </div>
+
+                    <div class="form-group">
+                        {!! Form::submit('Submit', ['class' => 'btn btn-primary']) !!}
+                    </div>
+
+                {!! Form::close() !!}\
+
             </div>
             <!-- End Nested Comment -->
+
         </div>
     </div>
+
+    @endforeach
+
+@endif
+
+
 
 @stop
