@@ -17,7 +17,7 @@ class CommentRepliesController extends Controller
      */
     public function index()
     {
-        //
+
     }
 
     /**
