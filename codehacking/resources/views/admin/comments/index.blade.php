@@ -26,6 +26,7 @@
         <td>{{ $comment->email }}</td>
         <td>{{ $comment->body }}</td>
         <td><a href="{{ route('home.post', $comment->post->id) }}" class="btn btn-primary">View Post </a></td>
+        <td><a href="{{ route('admin.comment.replies.show', $comment->id) }}" class="btn btn-primary">View Replies </a></td>
         <td>
             @if ($comment->is_active == 1)
                 {!! Form::open([
