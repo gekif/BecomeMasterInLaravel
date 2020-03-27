@@ -2,51 +2,84 @@
 
 namespace App;
 
-use Cviebrock\EloquentSluggable\SluggableInterface;
-use Cviebrock\EloquentSluggable\SluggableTrait;
+
+
+use Cviebrock\EloquentSluggable\Sluggable;
 use Illuminate\Database\Eloquent\Model;
+use Cviebrock\EloquentSluggable\SluggableScopeHelpers;
 
-class Post extends Model implements SluggableInterface
+class Post extends Model
 {
-    use SluggableTrait;
+    //
+
+    use Sluggable;
+    use SluggableScopeHelpers;
 
 
-    protected $sluggable = [
-        'build_from' => 'title',
-        'save_to' => 'slug',
-        'on_update' => true
-    ];
+
 
     protected $fillable = [
-      'category_id',
-      'photo_id',
-      'title',
-      'body',
-      'slug'
+
+        'category_id',
+        'photo_id',
+        'title',
+        'body'
+
+
+
     ];
 
-
-    public function user()
+    public function sluggable()
     {
+        return [
+            'slug' => [
+                'source' => 'title'
+            ]
+        ];
+    }
+
+
+
+    public function user(){
+
+
         return $this->belongsTo('App\User');
+
+
     }
 
 
-    public function photo()
-    {
+
+    public function photo(){
+
+
         return $this->belongsTo('App\Photo');
+
+
     }
 
 
-    public function category()
-    {
+    public function category(){
+
+
         return $this->belongsTo('App\Category');
+
+
     }
 
 
-    public function comments()
-    {
+
+    public function comments(){
+
+
         return $this->hasMany('App\Comment');
+
+
     }
+
+
+
+
+
 
 }
