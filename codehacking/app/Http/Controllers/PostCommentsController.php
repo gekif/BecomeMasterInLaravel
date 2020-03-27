@@ -41,7 +41,6 @@ class PostCommentsController extends Controller
      */
     public function store(Request $request)
     {
-
         $user = Auth::user();
 
         $data = [
@@ -57,8 +56,6 @@ class PostCommentsController extends Controller
         $request->session()->flash('comment_message', 'Your message has been submitted and is waiting moderation');
 
         return redirect()->back();
-
-//        return $request->all();
     }
 
     /**

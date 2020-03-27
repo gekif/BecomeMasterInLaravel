@@ -122,8 +122,8 @@
     <schema id="35" parent="5" name="public">
       <ObjectId>2200</ObjectId>
       <Comment>standard public schema</Comment>
-      <IntrospectionTimestamp>2020-03-26.20:46:50.161</IntrospectionTimestamp>
-      <IntrospectionStateNumber>50371</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2020-03-27.07:08:00.319</IntrospectionTimestamp>
+      <IntrospectionStateNumber>50397</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -416,7 +416,8 @@
     <column id="81" parent="51" name="photo">
       <Position>5</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>50371</StateNumber>
+      <NotNull>1</NotNull>
+      <StateNumber>50397</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="82" parent="51" name="email">
