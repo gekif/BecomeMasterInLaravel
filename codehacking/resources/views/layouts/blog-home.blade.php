@@ -4,6 +4,9 @@
 @include('includes.front_nav')
 
 <!-- Page Content -->
+
+@include('includes.flash_message')
+
 @yield('content')
 
 @include('includes.front_footer')

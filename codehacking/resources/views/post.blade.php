@@ -13,7 +13,7 @@
 
     <!-- Author -->
     <p class="lead">
-        by <a href="#">{{$post->user->name}}</a>
+        by {{$post->user->name}}
     </p>
 
     <hr>
