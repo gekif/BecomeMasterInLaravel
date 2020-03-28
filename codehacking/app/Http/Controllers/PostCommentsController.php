@@ -23,6 +23,7 @@ class PostCommentsController extends Controller
         return view('admin.comments.index', compact('comments'));
     }
 
+
     /**
      * Show the form for creating a new resource.
      *
@@ -45,18 +46,19 @@ class PostCommentsController extends Controller
 
         $data = [
             'post_id' => $request->post_id,
-            'author' => $user->name,
-            'email' => $user->email,
-            'photo' => $user->photo->file,
-            'body' => $request->body
+            'author'=> $user->name,
+            'email' =>$user->email,
+            'photo'=>$user->photo->file,
+            'body'=>$request->body
         ];
 
         Comment::create($data);
 
-        $request->session()->flash('comment_message', 'Your message has been submitted and is waiting moderation');
+        $request->session()->flash('comment_message','Your message has been submitted and is waiting moderation');
 
         return redirect()->back();
     }
+
 
     /**
      * Display the specified resource.
@@ -73,6 +75,7 @@ class PostCommentsController extends Controller
         return view('admin.comments.show', compact('comments'));
     }
 
+
     /**
      * Show the form for editing the specified resource.
      *
@@ -83,6 +86,7 @@ class PostCommentsController extends Controller
     {
         //
     }
+
 
     /**
      * Update the specified resource in storage.
@@ -110,4 +114,5 @@ class PostCommentsController extends Controller
 
         return redirect()->back();
     }
+
 }

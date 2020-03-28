@@ -31,8 +31,11 @@ class AdminMediasController extends Controller
 
         $file->move('images', $name);
 
-        Photo::create(['file' => $name]);
+        Photo::create([
+            'file' => $name
+        ]);
     }
+
 
     public function destroy($id)
     {

@@ -21,9 +21,10 @@ class AdminPostsController extends Controller
     public function index()
     {
         $posts = Post::paginate(2);
-
-        return view('admin.posts.index', compact('posts'));
+        
+        return view('admin.posts.index', compact('posts','categories'));
     }
+    
 
     /**
      * Show the form for creating a new resource.
@@ -32,10 +33,11 @@ class AdminPostsController extends Controller
      */
     public function create()
     {
-        $categories = Category::lists('name', 'id')->all();
+        $categories = Category::pluck('name','id')->all();
 
         return view('admin.posts.create', compact('categories'));
     }
+    
 
     /**
      * Store a newly created resource in storage.
@@ -46,15 +48,15 @@ class AdminPostsController extends Controller
     public function store(PostsCreateRequest $request)
     {
         $input = $request->all();
-
+        
         $user = Auth::user();
 
-        if ($file = $request->file('photo_id')) {
+        if ($file = $request->file('photo_id')){
             $name = time() . $file->getClientOriginalName();
 
             $file->move('images', $name);
 
-            $photo = Photo::create(['file' => $name]);
+            $photo = Photo::create(['file'=>$name]);
 
             $input['photo_id'] = $photo->id;
         }
@@ -62,9 +64,8 @@ class AdminPostsController extends Controller
         $user->posts()->create($input);
 
         return redirect('/admin/posts');
-
-//        return $input;
     }
+
 
     /**
      * Display the specified resource.
@@ -77,6 +78,7 @@ class AdminPostsController extends Controller
         //
     }
 
+
     /**
      * Show the form for editing the specified resource.
      *
@@ -87,10 +89,11 @@ class AdminPostsController extends Controller
     {
         $post = Post::findOrFail($id);
 
-        $categories = Category::lists('name', 'id')->all();
+        $categories = Category::pluck('name','id')->all();
 
-        return view('admin.posts.edit', compact('post', 'categories'));
+        return view('admin.posts.edit', compact('post','categories'));
     }
+
 
     /**
      * Update the specified resource in storage.
@@ -103,20 +106,25 @@ class AdminPostsController extends Controller
     {
         $input = $request->all();
 
-        if ($file = $request->file('photo_id')) {
+        if ($file = $request->file('photo_id')){
             $name = time() . $file->getClientOriginalName();
 
             $file->move('images', $name);
 
-            $photo = Photo::create(['file' => $name]);
+            $photo = Photo::create(['file'=>$name]);
 
             $input['photo_id'] = $photo->id;
         }
 
-        Auth::user()->posts()->whereId($id)->first()->update($input);
+      Auth::user()
+          ->posts()
+          ->whereId($id)
+          ->first()
+          ->update($input);
 
         return redirect('/admin/posts');
     }
+
 
     /**
      * Remove the specified resource from storage.
@@ -140,9 +148,11 @@ class AdminPostsController extends Controller
     {
         $post = Post::findBySlugOrFail($slug);
 
-        $comments = $post->comments()->whereIsActive(1)->get();
+        $comments = $post->comments()
+            ->whereIsActive(1)
+            ->get();
 
-        return view('post', compact('post', 'comments'));
+        return view('post', compact('post','comments'));
     }
 
 }

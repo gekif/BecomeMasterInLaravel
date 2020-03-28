@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Photo extends Model
 {
-    protected $uploads = "/images/";
+    protected $uploads = '/images/';
 
     protected $fillable = ['file'];
 
@@ -15,12 +15,5 @@ class Photo extends Model
     {
         return $this->uploads . $photo;
     }
-
-    public function user()
-    {
-        return $this->belongsTo('App\User');
-    }
-
-
 
 }

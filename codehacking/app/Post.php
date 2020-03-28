@@ -10,24 +10,18 @@ use Cviebrock\EloquentSluggable\SluggableScopeHelpers;
 
 class Post extends Model
 {
-    //
-
     use Sluggable;
     use SluggableScopeHelpers;
 
 
-
-
     protected $fillable = [
-
         'category_id',
         'photo_id',
         'title',
         'body'
-
-
-
     ];
+
+
 
     public function sluggable()
     {
@@ -39,47 +33,27 @@ class Post extends Model
     }
 
 
-
-    public function user(){
-
-
+    public function user()
+    {
         return $this->belongsTo('App\User');
-
-
     }
 
 
-
-    public function photo(){
-
-
+    public function photo()
+    {
         return $this->belongsTo('App\Photo');
-
-
     }
 
 
-    public function category(){
-
-
+    public function category()
+    {
         return $this->belongsTo('App\Category');
-
-
     }
 
 
-
-    public function comments(){
-
-
+    public function comments()
+    {
         return $this->hasMany('App\Comment');
-
-
     }
-
-
-
-
-
 
 }

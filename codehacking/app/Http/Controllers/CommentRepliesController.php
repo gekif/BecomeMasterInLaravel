@@ -18,8 +18,9 @@ class CommentRepliesController extends Controller
      */
     public function index()
     {
-
+        //
     }
+
 
     /**
      * Show the form for creating a new resource.
@@ -30,6 +31,7 @@ class CommentRepliesController extends Controller
     {
         //
     }
+
 
     /**
      * Store a newly created resource in storage.
@@ -49,18 +51,19 @@ class CommentRepliesController extends Controller
 
         $data = [
             'comment_id' => $request->comment_id,
-            'author' => $user->name,
-            'email' => $user->email,
-            'photo' => $user->photo->file,
-            'body' => $request->body
+            'author'=> $user->name,
+            'email' =>$user->email,
+            'photo'=>$user->photo->file,
+            'body'=>$request->body
         ];
 
         CommentReply::create($data);
 
-        $request->session()->flash('reply_message', 'Your reply has been submitted and is waiting moderation');
+        $request->session()->flash('reply_message','Your reply has been submitted and is waiting moderation');
 
         return redirect()->back();
     }
+
 
     /**
      * Display the specified resource.
@@ -74,8 +77,10 @@ class CommentRepliesController extends Controller
 
         $replies = $comment->replies;
 
-        return view('admin.comments.replies.show', compact('replies'));
+        return view(' admin.comments.replies.show', compact('replies'));
+
     }
+
 
     /**
      * Show the form for editing the specified resource.
@@ -87,6 +92,7 @@ class CommentRepliesController extends Controller
     {
         //
     }
+
 
     /**
      * Update the specified resource in storage.
@@ -113,5 +119,7 @@ class CommentRepliesController extends Controller
         CommentReply::findOrFail($id)->delete();
 
         return redirect()->back();
+
     }
+
 }

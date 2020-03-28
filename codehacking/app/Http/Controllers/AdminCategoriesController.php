@@ -21,15 +21,6 @@ class AdminCategoriesController extends Controller
         return view('admin.categories.index', compact('categories'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
 
     /**
      * Store a newly created resource in storage.
@@ -44,6 +35,7 @@ class AdminCategoriesController extends Controller
         return redirect('/admin/categories');
     }
 
+
     /**
      * Display the specified resource.
      *
@@ -54,6 +46,7 @@ class AdminCategoriesController extends Controller
     {
         //
     }
+
 
     /**
      * Show the form for editing the specified resource.
@@ -67,6 +60,7 @@ class AdminCategoriesController extends Controller
 
         return view('admin.categories.edit', compact('category'));
     }
+
 
     /**
      * Update the specified resource in storage.
@@ -84,6 +78,7 @@ class AdminCategoriesController extends Controller
         return redirect('/admin/categories');
     }
 
+
     /**
      * Remove the specified resource from storage.
      *
@@ -96,4 +91,5 @@ class AdminCategoriesController extends Controller
 
         return redirect('/admin/categories');
     }
+
 }

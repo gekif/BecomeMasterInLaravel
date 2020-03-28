@@ -17,8 +17,10 @@ class User extends Authenticatable
         'password',
         'role_id',
         'photo_id',
-        'is_active'
+        'is_active',
+        '',
     ];
+
 
     /**
      * The attributes that should be hidden for arrays.
@@ -42,17 +44,20 @@ class User extends Authenticatable
     }
 
 
-    public function setPasswordAttribute($password)
-    {
-        if (!empty($password)) {
-            $this->attributes['password'] = bcrypt($password);
-        }
-    }
+//    public function setPasswordAttribute($password)
+//    {
+//        if (!empty($password)){
+//            $this->attributes['password'] = bcrypt($password);
+//        }
+//
+//        $this->attributes['password'] = $password;
+//    }
 
 
-    public function isAdmin()
-    {
-        if ($this->role->name == 'Administrator' && $this->is_active == 1) {
+    public function isAdmin(){
+
+
+        if ($this->role->name  == "administrator" && $this->is_active == 1){
             return true;
         }
 
@@ -68,7 +73,7 @@ class User extends Authenticatable
 
     public function getGravatarAttribute()
     {
-        $hash = md5(strtolower(trim($this->attributes['email']))) . "?d=mm";
+        $hash = md5(strtolower(trim($this->attributes['email']))) . "?d=mm&s=";
 
         return "http://www.gravatar.com/avatar/$hash";
     }
