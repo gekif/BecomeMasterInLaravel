@@ -31,7 +31,7 @@
                         'rgb(255, 206, 86, 0.2)'
                     ],
                     borderColor: 'rgb(255, 99, 132)',
-                    data: [20, 16, 30]
+                    data: [{{ $postCount }}, {{ $categoriesCount }}, {{ $commentsCount }}]
                 }]
             },
 
