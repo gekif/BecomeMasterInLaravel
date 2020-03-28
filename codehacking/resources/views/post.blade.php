@@ -24,13 +24,13 @@
     <hr>
 
     <!-- Preview Image -->
-    <img class="img-responsive" src="{{$post->photo->file}}" alt="">
+    <img class="img-responsive" src="{{ $post->photo ? $post->photo->file : $post->photoPlaceholder() }}" alt="">
 
     <hr>
 
     <!-- Post Content -->
 
-    <p>{{$post->body}}</p>
+    <p>{!! $post->body  !!}</p>
 
     <hr>
 
@@ -127,13 +127,9 @@
 
             @if(count($comment->replies) > 0)
 
-
                   @foreach($comment->replies as $reply)
 
-
                         @if($reply->is_active == 1)
-
-
 
                         <!-- Nested Comment -->
                         <div id="nested-comment" class=" media">
@@ -166,11 +162,6 @@
 
             @endif
 
-
-
-
-
-
         </div>
     </div>
 
@@ -178,31 +169,14 @@
 
 @endif
 
-
-
 @stop
 
 
 @section('scripts')
-
     <script>
-
         $(".comment-reply-container .toggle-reply").click(function(){
-
-
             $(this).next().slideToggle("slow");
-
-
-
-
         });
-
-
-
-
     </script>
-
-
-
 @stop
 
