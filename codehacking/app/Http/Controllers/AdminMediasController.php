@@ -48,4 +48,10 @@ class AdminMediasController extends Controller
         return redirect('/admin/media');
     }
 
+
+    public function deleteMedia(Request $request)
+    {
+
+    }
+
 }

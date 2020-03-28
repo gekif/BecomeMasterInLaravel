@@ -51,11 +51,13 @@ Route::group(['middleware' => 'admin'], function(){
     ]]);
 
     Route::resource('admin/media', 'AdminMediasController', ['names' => [
-        'index'=>'admin.media.index',
-        'create'=>'admin.media.create',
-        'store'=>'admin.media.store',
-        'edit'=>'admin.media.edit'
+        'index' => 'admin.media.index',
+        'create' => 'admin.media.create',
+        'store' => 'admin.media.store',
+        'edit' => 'admin.media.edit'
     ]]);
+
+    Route::post('/delete/media', 'AdminMediasController@deleteMedia');
 
     Route::resource('admin/comments', 'PostCommentsController', ['names' => [
         'index'=>'admin.comments.index',
